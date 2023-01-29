@@ -444,7 +444,6 @@ object NetworkManager2{
         .addCallAdapterFactory(CoroutineCallAdapterFactory())
         .build()
         .create(SteamAPI::class.java)
-    //companion object
 
     suspend fun getDetailsGame(gameId: String): Id {
         try {
