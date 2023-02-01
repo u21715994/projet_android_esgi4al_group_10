@@ -17,7 +17,7 @@ class UserAuth {
     }
 
     //Fonction de création de notre user
-    fun createUser(email: String, password: String, userData: Map<String, Any>) {
+    fun createU(email: String, password: String, userData: Map<String, Any>) {
         mAuth!!.createUserWithEmailAndPassword(email, password)
             .addOnCompleteListener { task ->
                 if (task.isSuccessful) {
