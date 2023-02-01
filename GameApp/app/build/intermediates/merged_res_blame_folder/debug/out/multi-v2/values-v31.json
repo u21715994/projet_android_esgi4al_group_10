@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.gameapp-mergeDebugResources-27:/values-v31/values-v31.xml",
+            "outputFile": "com.example.gameapp-mergeDebugResources-29:/values-v31/values-v31.xml",
             "map": [
                 {
                     "source": "C:\\Users\\ramse\\.gradle\\caches\\transforms-3\\326462eec2e0a089513d810dfe38b8af\\transformed\\material-1.5.0\\res\\values-v31\\values-v31.xml",

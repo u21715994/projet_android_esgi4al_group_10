@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.gameapp-mergeDebugResources-27:/values-v23/values-v23.xml",
+            "outputFile": "com.example.gameapp-mergeDebugResources-29:/values-v23/values-v23.xml",
             "map": [
                 {
                     "source": "C:\\Users\\ramse\\.gradle\\caches\\transforms-3\\fadd845f41da480bc8dd7a166385e1cb\\transformed\\cardview-1.0.0\\res\\values-v23\\values-v23.xml",
