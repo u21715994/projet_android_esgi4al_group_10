@@ -1,5 +1,7 @@
 package com.example.gameapp.backend
 
+import android.content.Context
+import android.widget.Toast
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.FirebaseUser
 import com.google.firebase.database.DatabaseReference
@@ -17,22 +19,28 @@ class UserAuth {
     }
 
     //Fonction de création de notre user
-    fun createU(email: String, password: String, userData: Map<String, Any>) {
+    fun createU(email: String, password: String, userData: Map<String, Any>, context: Context) {
         mAuth!!.createUserWithEmailAndPassword(email, password)
             .addOnCompleteListener { task ->
                 if (task.isSuccessful) {
                     val user = mAuth!!.currentUser
                     storeUserData(user!!.uid, userData)
+                    Toast.makeText(context, "Inscription réussie!", Toast.LENGTH_SHORT).show()
+                } else {
+                    Toast.makeText(context, "Inscription échouée, veuillez réessayer", Toast.LENGTH_SHORT).show()
                 }
             }
     }
 
     //Fonction de connection de notre user
-    fun signInUser(email: String, password: String) {
+    fun signInUser(email: String, password: String, context: Context) {
         mAuth!!.signInWithEmailAndPassword(email, password)
             .addOnCompleteListener { task ->
                 if (task.isSuccessful) {
                     val user = mAuth!!.currentUser
+                    Toast.makeText(context, "Connexion réussie!", Toast.LENGTH_SHORT).show()
+                } else {
+                    Toast.makeText(context, "Connexion échouée, veuillez réessayer", Toast.LENGTH_SHORT).show()
                 }
             }
     }

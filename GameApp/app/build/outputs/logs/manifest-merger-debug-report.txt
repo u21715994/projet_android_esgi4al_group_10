@@ -192,12 +192,12 @@ MERGED from [androidx.startup:startup-runtime:1.0.0] C:\Users\ramse\.gradle\cach
 		ADDED from D:\Github\projet_android_esgi4al_group_10\GameApp\app\src\main\AndroidManifest.xml:15:9-45
 	android:dataExtractionRules
 		ADDED from D:\Github\projet_android_esgi4al_group_10\GameApp\app\src\main\AndroidManifest.xml:9:9-65
-activity#com.example.gameapp.activity.WishlistActivity
+activity#com.example.gameapp.activity.MainActivity
 ADDED from D:\Github\projet_android_esgi4al_group_10\GameApp\app\src\main\AndroidManifest.xml:17:9-29:20
 	android:exported
 		ADDED from D:\Github\projet_android_esgi4al_group_10\GameApp\app\src\main\AndroidManifest.xml:19:13-36
 	android:name
-		ADDED from D:\Github\projet_android_esgi4al_group_10\GameApp\app\src\main\AndroidManifest.xml:18:13-54
+		ADDED from D:\Github\projet_android_esgi4al_group_10\GameApp\app\src\main\AndroidManifest.xml:18:13-50
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
 ADDED from D:\Github\projet_android_esgi4al_group_10\GameApp\app\src\main\AndroidManifest.xml:20:13-24:29
 action#android.intent.action.MAIN

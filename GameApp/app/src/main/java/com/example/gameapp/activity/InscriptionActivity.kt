@@ -27,7 +27,7 @@ class InscriptionActivity : AppCompatActivity() {
             val username = findViewById<EditText>(R.id.editText3).text.toString()
             val userData = mapOf("username" to username)
             val auth = UserAuth()
-            auth.createU(email, password, userData)
+            auth.createU(email, password, userData,this)
         }
     }
 }

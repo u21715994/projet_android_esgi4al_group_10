@@ -25,7 +25,7 @@ class MainActivity : AppCompatActivity() {
             val email = findViewById<EditText>(R.id.editText).text.toString()
             val password = findViewById<EditText>(R.id.editText2).text.toString()
             val auth = UserAuth()
-            auth.signInUser(email, password)
+            auth.signInUser(email, password, this)
         }
     }
 }

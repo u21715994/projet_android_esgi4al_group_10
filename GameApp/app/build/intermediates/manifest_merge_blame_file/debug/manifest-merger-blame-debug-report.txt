@@ -50,8 +50,8 @@
 28-->D:\Github\projet_android_esgi4al_group_10\GameApp\app\src\main\AndroidManifest.xml:15:9-45
 29        <activity
 29-->D:\Github\projet_android_esgi4al_group_10\GameApp\app\src\main\AndroidManifest.xml:17:9-29:20
-30            android:name="com.example.gameapp.activity.WishlistActivity"
-30-->D:\Github\projet_android_esgi4al_group_10\GameApp\app\src\main\AndroidManifest.xml:18:13-54
+30            android:name="com.example.gameapp.activity.MainActivity"
+30-->D:\Github\projet_android_esgi4al_group_10\GameApp\app\src\main\AndroidManifest.xml:18:13-50
 31            android:exported="true" >
 31-->D:\Github\projet_android_esgi4al_group_10\GameApp\app\src\main\AndroidManifest.xml:19:13-36
 32            <intent-filter>

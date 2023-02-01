@@ -27,7 +27,7 @@
         android:testOnly="true"
         android:theme="@style/Theme.GameApp" >
         <activity
-            android:name="com.example.gameapp.activity.WishlistActivity"
+            android:name="com.example.gameapp.activity.MainActivity"
             android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
