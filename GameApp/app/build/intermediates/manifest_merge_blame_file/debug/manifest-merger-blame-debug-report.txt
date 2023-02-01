@@ -6,82 +6,177 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="21"
-8-->C:\Users\Admin\projet_android_esgi4al_group_10\GameApp\app\src\main\AndroidManifest.xml
+8-->D:\Github\projet_android_esgi4al_group_10\GameApp\app\src\main\AndroidManifest.xml
 9        android:targetSdkVersion="32" />
-9-->C:\Users\Admin\projet_android_esgi4al_group_10\GameApp\app\src\main\AndroidManifest.xml
+9-->D:\Github\projet_android_esgi4al_group_10\GameApp\app\src\main\AndroidManifest.xml
 10
 11    <uses-permission android:name="android.permission.INTERNET" />
-11-->C:\Users\Admin\projet_android_esgi4al_group_10\GameApp\app\src\main\AndroidManifest.xml:5:5-67
-11-->C:\Users\Admin\projet_android_esgi4al_group_10\GameApp\app\src\main\AndroidManifest.xml:5:22-64
-12
-13    <application
-13-->C:\Users\Admin\projet_android_esgi4al_group_10\GameApp\app\src\main\AndroidManifest.xml:7:5-30:19
-14        android:allowBackup="true"
-14-->C:\Users\Admin\projet_android_esgi4al_group_10\GameApp\app\src\main\AndroidManifest.xml:8:9-35
-15        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-15-->[androidx.core:core:1.7.0] C:\Users\Admin\.gradle\caches\transforms-3\9df45a95e4e06a011612ef3452b5826c\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
-16        android:dataExtractionRules="@xml/data_extraction_rules"
-16-->C:\Users\Admin\projet_android_esgi4al_group_10\GameApp\app\src\main\AndroidManifest.xml:9:9-65
-17        android:debuggable="true"
-18        android:fullBackupContent="@xml/backup_rules"
-18-->C:\Users\Admin\projet_android_esgi4al_group_10\GameApp\app\src\main\AndroidManifest.xml:10:9-54
-19        android:icon="@mipmap/ic_launcher"
-19-->C:\Users\Admin\projet_android_esgi4al_group_10\GameApp\app\src\main\AndroidManifest.xml:11:9-43
-20        android:label="@string/app_name"
-20-->C:\Users\Admin\projet_android_esgi4al_group_10\GameApp\app\src\main\AndroidManifest.xml:12:9-41
-21        android:roundIcon="@mipmap/ic_launcher_round"
-21-->C:\Users\Admin\projet_android_esgi4al_group_10\GameApp\app\src\main\AndroidManifest.xml:13:9-54
-22        android:supportsRtl="true"
-22-->C:\Users\Admin\projet_android_esgi4al_group_10\GameApp\app\src\main\AndroidManifest.xml:14:9-35
-23        android:testOnly="true"
-24        android:theme="@style/Theme.GameApp" >
-24-->C:\Users\Admin\projet_android_esgi4al_group_10\GameApp\app\src\main\AndroidManifest.xml:15:9-45
-25        <activity
-25-->C:\Users\Admin\projet_android_esgi4al_group_10\GameApp\app\src\main\AndroidManifest.xml:17:9-29:20
-26            android:name="com.example.gameapp.activity.WishlistActivity"
-26-->C:\Users\Admin\projet_android_esgi4al_group_10\GameApp\app\src\main\AndroidManifest.xml:18:13-54
-27            android:exported="true" >
-27-->C:\Users\Admin\projet_android_esgi4al_group_10\GameApp\app\src\main\AndroidManifest.xml:19:13-36
-28            <intent-filter>
-28-->C:\Users\Admin\projet_android_esgi4al_group_10\GameApp\app\src\main\AndroidManifest.xml:20:13-24:29
-29                <action android:name="android.intent.action.MAIN" />
-29-->C:\Users\Admin\projet_android_esgi4al_group_10\GameApp\app\src\main\AndroidManifest.xml:21:17-69
-29-->C:\Users\Admin\projet_android_esgi4al_group_10\GameApp\app\src\main\AndroidManifest.xml:21:25-66
-30
-31                <category android:name="android.intent.category.LAUNCHER" />
-31-->C:\Users\Admin\projet_android_esgi4al_group_10\GameApp\app\src\main\AndroidManifest.xml:23:17-77
-31-->C:\Users\Admin\projet_android_esgi4al_group_10\GameApp\app\src\main\AndroidManifest.xml:23:27-74
-32            </intent-filter>
-33
-34            <meta-data
-34-->C:\Users\Admin\projet_android_esgi4al_group_10\GameApp\app\src\main\AndroidManifest.xml:26:13-28:36
-35                android:name="android.app.lib_name"
-35-->C:\Users\Admin\projet_android_esgi4al_group_10\GameApp\app\src\main\AndroidManifest.xml:27:17-52
-36                android:value="" />
-36-->C:\Users\Admin\projet_android_esgi4al_group_10\GameApp\app\src\main\AndroidManifest.xml:28:17-33
-37        </activity>
-38
-39        <provider
-39-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Admin\.gradle\caches\transforms-3\890798958823e1ddb9191fb82e555b3f\transformed\emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
-40            android:name="androidx.startup.InitializationProvider"
-40-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Admin\.gradle\caches\transforms-3\890798958823e1ddb9191fb82e555b3f\transformed\emoji2-1.0.0\AndroidManifest.xml:27:13-67
-41            android:authorities="com.example.gameapp.androidx-startup"
-41-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Admin\.gradle\caches\transforms-3\890798958823e1ddb9191fb82e555b3f\transformed\emoji2-1.0.0\AndroidManifest.xml:28:13-68
-42            android:exported="false" >
-42-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Admin\.gradle\caches\transforms-3\890798958823e1ddb9191fb82e555b3f\transformed\emoji2-1.0.0\AndroidManifest.xml:29:13-37
-43            <meta-data
-43-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Admin\.gradle\caches\transforms-3\890798958823e1ddb9191fb82e555b3f\transformed\emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
-44                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-44-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Admin\.gradle\caches\transforms-3\890798958823e1ddb9191fb82e555b3f\transformed\emoji2-1.0.0\AndroidManifest.xml:32:17-75
-45                android:value="androidx.startup" />
-45-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Admin\.gradle\caches\transforms-3\890798958823e1ddb9191fb82e555b3f\transformed\emoji2-1.0.0\AndroidManifest.xml:33:17-49
-46            <meta-data
-46-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Admin\.gradle\caches\transforms-3\98559743d14cc19cc4c8b0530b0c3c74\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
-47                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-47-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Admin\.gradle\caches\transforms-3\98559743d14cc19cc4c8b0530b0c3c74\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
-48                android:value="androidx.startup" />
-48-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Admin\.gradle\caches\transforms-3\98559743d14cc19cc4c8b0530b0c3c74\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
-49        </provider>
-50    </application>
-51
-52</manifest>
+11-->D:\Github\projet_android_esgi4al_group_10\GameApp\app\src\main\AndroidManifest.xml:5:5-67
+11-->D:\Github\projet_android_esgi4al_group_10\GameApp\app\src\main\AndroidManifest.xml:5:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->[com.google.android.gms:play-services-measurement-api:21.2.0] C:\Users\ramse\.gradle\caches\transforms-3\41b9fcf3532040c0cc0049fac914e811\transformed\play-services-measurement-api-21.2.0\AndroidManifest.xml:23:5-79
+12-->[com.google.android.gms:play-services-measurement-api:21.2.0] C:\Users\ramse\.gradle\caches\transforms-3\41b9fcf3532040c0cc0049fac914e811\transformed\play-services-measurement-api-21.2.0\AndroidManifest.xml:23:22-76
+13    <uses-permission android:name="android.permission.WAKE_LOCK" />
+13-->[com.google.android.gms:play-services-measurement-api:21.2.0] C:\Users\ramse\.gradle\caches\transforms-3\41b9fcf3532040c0cc0049fac914e811\transformed\play-services-measurement-api-21.2.0\AndroidManifest.xml:24:5-68
+13-->[com.google.android.gms:play-services-measurement-api:21.2.0] C:\Users\ramse\.gradle\caches\transforms-3\41b9fcf3532040c0cc0049fac914e811\transformed\play-services-measurement-api-21.2.0\AndroidManifest.xml:24:22-65
+14    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+14-->[com.google.android.gms:play-services-measurement-api:21.2.0] C:\Users\ramse\.gradle\caches\transforms-3\41b9fcf3532040c0cc0049fac914e811\transformed\play-services-measurement-api-21.2.0\AndroidManifest.xml:25:5-79
+14-->[com.google.android.gms:play-services-measurement-api:21.2.0] C:\Users\ramse\.gradle\caches\transforms-3\41b9fcf3532040c0cc0049fac914e811\transformed\play-services-measurement-api-21.2.0\AndroidManifest.xml:25:22-76
+15    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+15-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\ramse\.gradle\caches\transforms-3\c36f966c40293593f08d758757df629d\transformed\play-services-measurement-21.2.0\AndroidManifest.xml:26:5-110
+15-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\ramse\.gradle\caches\transforms-3\c36f966c40293593f08d758757df629d\transformed\play-services-measurement-21.2.0\AndroidManifest.xml:26:22-107
+16
+17    <application
+17-->D:\Github\projet_android_esgi4al_group_10\GameApp\app\src\main\AndroidManifest.xml:7:5-30:19
+18        android:allowBackup="true"
+18-->D:\Github\projet_android_esgi4al_group_10\GameApp\app\src\main\AndroidManifest.xml:8:9-35
+19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+19-->[androidx.core:core:1.7.0] C:\Users\ramse\.gradle\caches\transforms-3\0dbc51050951f043827725c29f46e323\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
+20        android:dataExtractionRules="@xml/data_extraction_rules"
+20-->D:\Github\projet_android_esgi4al_group_10\GameApp\app\src\main\AndroidManifest.xml:9:9-65
+21        android:debuggable="true"
+22        android:fullBackupContent="@xml/backup_rules"
+22-->D:\Github\projet_android_esgi4al_group_10\GameApp\app\src\main\AndroidManifest.xml:10:9-54
+23        android:icon="@mipmap/ic_launcher"
+23-->D:\Github\projet_android_esgi4al_group_10\GameApp\app\src\main\AndroidManifest.xml:11:9-43
+24        android:label="@string/app_name"
+24-->D:\Github\projet_android_esgi4al_group_10\GameApp\app\src\main\AndroidManifest.xml:12:9-41
+25        android:roundIcon="@mipmap/ic_launcher_round"
+25-->D:\Github\projet_android_esgi4al_group_10\GameApp\app\src\main\AndroidManifest.xml:13:9-54
+26        android:supportsRtl="true"
+26-->D:\Github\projet_android_esgi4al_group_10\GameApp\app\src\main\AndroidManifest.xml:14:9-35
+27        android:testOnly="true"
+28        android:theme="@style/Theme.GameApp" >
+28-->D:\Github\projet_android_esgi4al_group_10\GameApp\app\src\main\AndroidManifest.xml:15:9-45
+29        <activity
+29-->D:\Github\projet_android_esgi4al_group_10\GameApp\app\src\main\AndroidManifest.xml:17:9-29:20
+30            android:name="com.example.gameapp.activity.WishlistActivity"
+30-->D:\Github\projet_android_esgi4al_group_10\GameApp\app\src\main\AndroidManifest.xml:18:13-54
+31            android:exported="true" >
+31-->D:\Github\projet_android_esgi4al_group_10\GameApp\app\src\main\AndroidManifest.xml:19:13-36
+32            <intent-filter>
+32-->D:\Github\projet_android_esgi4al_group_10\GameApp\app\src\main\AndroidManifest.xml:20:13-24:29
+33                <action android:name="android.intent.action.MAIN" />
+33-->D:\Github\projet_android_esgi4al_group_10\GameApp\app\src\main\AndroidManifest.xml:21:17-69
+33-->D:\Github\projet_android_esgi4al_group_10\GameApp\app\src\main\AndroidManifest.xml:21:25-66
+34
+35                <category android:name="android.intent.category.LAUNCHER" />
+35-->D:\Github\projet_android_esgi4al_group_10\GameApp\app\src\main\AndroidManifest.xml:23:17-77
+35-->D:\Github\projet_android_esgi4al_group_10\GameApp\app\src\main\AndroidManifest.xml:23:27-74
+36            </intent-filter>
+37
+38            <meta-data
+38-->D:\Github\projet_android_esgi4al_group_10\GameApp\app\src\main\AndroidManifest.xml:26:13-28:36
+39                android:name="android.app.lib_name"
+39-->D:\Github\projet_android_esgi4al_group_10\GameApp\app\src\main\AndroidManifest.xml:27:17-52
+40                android:value="" />
+40-->D:\Github\projet_android_esgi4al_group_10\GameApp\app\src\main\AndroidManifest.xml:28:17-33
+41        </activity>
+42
+43        <service
+43-->[com.google.firebase:firebase-analytics-ktx:21.2.0] C:\Users\ramse\.gradle\caches\transforms-3\3a2af1d1e222806e3d17416d0b315f04\transformed\firebase-analytics-ktx-21.2.0\AndroidManifest.xml:8:9-14:19
+44            android:name="com.google.firebase.components.ComponentDiscoveryService"
+44-->[com.google.firebase:firebase-analytics-ktx:21.2.0] C:\Users\ramse\.gradle\caches\transforms-3\3a2af1d1e222806e3d17416d0b315f04\transformed\firebase-analytics-ktx-21.2.0\AndroidManifest.xml:9:13-84
+45            android:directBootAware="true"
+45-->[com.google.firebase:firebase-common:20.3.0] C:\Users\ramse\.gradle\caches\transforms-3\48b9cf7765246a4fe2ad7415375ffbc7\transformed\firebase-common-20.3.0\AndroidManifest.xml:34:13-43
+46            android:exported="false" >
+46-->[com.google.firebase:firebase-analytics-ktx:21.2.0] C:\Users\ramse\.gradle\caches\transforms-3\3a2af1d1e222806e3d17416d0b315f04\transformed\firebase-analytics-ktx-21.2.0\AndroidManifest.xml:10:13-37
+47            <meta-data
+47-->[com.google.firebase:firebase-analytics-ktx:21.2.0] C:\Users\ramse\.gradle\caches\transforms-3\3a2af1d1e222806e3d17416d0b315f04\transformed\firebase-analytics-ktx-21.2.0\AndroidManifest.xml:11:13-13:85
+48                android:name="com.google.firebase.components:com.google.firebase.analytics.ktx.FirebaseAnalyticsKtxRegistrar"
+48-->[com.google.firebase:firebase-analytics-ktx:21.2.0] C:\Users\ramse\.gradle\caches\transforms-3\3a2af1d1e222806e3d17416d0b315f04\transformed\firebase-analytics-ktx-21.2.0\AndroidManifest.xml:12:17-126
+49                android:value="com.google.firebase.components.ComponentRegistrar" />
+49-->[com.google.firebase:firebase-analytics-ktx:21.2.0] C:\Users\ramse\.gradle\caches\transforms-3\3a2af1d1e222806e3d17416d0b315f04\transformed\firebase-analytics-ktx-21.2.0\AndroidManifest.xml:13:17-82
+50            <meta-data
+50-->[com.google.firebase:firebase-common-ktx:20.3.0] C:\Users\ramse\.gradle\caches\transforms-3\41507e95bdc720c950ef2dfedd52e453\transformed\firebase-common-ktx-20.3.0\AndroidManifest.xml:14:13-16:85
+51                android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonKtxRegistrar"
+51-->[com.google.firebase:firebase-common-ktx:20.3.0] C:\Users\ramse\.gradle\caches\transforms-3\41507e95bdc720c950ef2dfedd52e453\transformed\firebase-common-ktx-20.3.0\AndroidManifest.xml:15:17-113
+52                android:value="com.google.firebase.components.ComponentRegistrar" />
+52-->[com.google.firebase:firebase-common-ktx:20.3.0] C:\Users\ramse\.gradle\caches\transforms-3\41507e95bdc720c950ef2dfedd52e453\transformed\firebase-common-ktx-20.3.0\AndroidManifest.xml:16:17-82
+53            <meta-data
+53-->[com.google.android.gms:play-services-measurement-api:21.2.0] C:\Users\ramse\.gradle\caches\transforms-3\41b9fcf3532040c0cc0049fac914e811\transformed\play-services-measurement-api-21.2.0\AndroidManifest.xml:31:13-33:85
+54                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+54-->[com.google.android.gms:play-services-measurement-api:21.2.0] C:\Users\ramse\.gradle\caches\transforms-3\41b9fcf3532040c0cc0049fac914e811\transformed\play-services-measurement-api-21.2.0\AndroidManifest.xml:32:17-139
+55                android:value="com.google.firebase.components.ComponentRegistrar" />
+55-->[com.google.android.gms:play-services-measurement-api:21.2.0] C:\Users\ramse\.gradle\caches\transforms-3\41b9fcf3532040c0cc0049fac914e811\transformed\play-services-measurement-api-21.2.0\AndroidManifest.xml:33:17-82
+56            <meta-data
+56-->[com.google.firebase:firebase-installations:17.1.0] C:\Users\ramse\.gradle\caches\transforms-3\d4e69537cb8e98b833b65c88645d4483\transformed\firebase-installations-17.1.0\AndroidManifest.xml:17:13-19:85
+57                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+57-->[com.google.firebase:firebase-installations:17.1.0] C:\Users\ramse\.gradle\caches\transforms-3\d4e69537cb8e98b833b65c88645d4483\transformed\firebase-installations-17.1.0\AndroidManifest.xml:18:17-127
+58                android:value="com.google.firebase.components.ComponentRegistrar" />
+58-->[com.google.firebase:firebase-installations:17.1.0] C:\Users\ramse\.gradle\caches\transforms-3\d4e69537cb8e98b833b65c88645d4483\transformed\firebase-installations-17.1.0\AndroidManifest.xml:19:17-82
+59        </service>
+60
+61        <provider
+61-->[com.google.firebase:firebase-common:20.3.0] C:\Users\ramse\.gradle\caches\transforms-3\48b9cf7765246a4fe2ad7415375ffbc7\transformed\firebase-common-20.3.0\AndroidManifest.xml:25:9-30:39
+62            android:name="com.google.firebase.provider.FirebaseInitProvider"
+62-->[com.google.firebase:firebase-common:20.3.0] C:\Users\ramse\.gradle\caches\transforms-3\48b9cf7765246a4fe2ad7415375ffbc7\transformed\firebase-common-20.3.0\AndroidManifest.xml:26:13-77
+63            android:authorities="com.example.gameapp.firebaseinitprovider"
+63-->[com.google.firebase:firebase-common:20.3.0] C:\Users\ramse\.gradle\caches\transforms-3\48b9cf7765246a4fe2ad7415375ffbc7\transformed\firebase-common-20.3.0\AndroidManifest.xml:27:13-72
+64            android:directBootAware="true"
+64-->[com.google.firebase:firebase-common:20.3.0] C:\Users\ramse\.gradle\caches\transforms-3\48b9cf7765246a4fe2ad7415375ffbc7\transformed\firebase-common-20.3.0\AndroidManifest.xml:28:13-43
+65            android:exported="false"
+65-->[com.google.firebase:firebase-common:20.3.0] C:\Users\ramse\.gradle\caches\transforms-3\48b9cf7765246a4fe2ad7415375ffbc7\transformed\firebase-common-20.3.0\AndroidManifest.xml:29:13-37
+66            android:initOrder="100" />
+66-->[com.google.firebase:firebase-common:20.3.0] C:\Users\ramse\.gradle\caches\transforms-3\48b9cf7765246a4fe2ad7415375ffbc7\transformed\firebase-common-20.3.0\AndroidManifest.xml:30:13-36
+67
+68        <receiver
+68-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\ramse\.gradle\caches\transforms-3\c36f966c40293593f08d758757df629d\transformed\play-services-measurement-21.2.0\AndroidManifest.xml:29:9-33:20
+69            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+69-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\ramse\.gradle\caches\transforms-3\c36f966c40293593f08d758757df629d\transformed\play-services-measurement-21.2.0\AndroidManifest.xml:30:13-85
+70            android:enabled="true"
+70-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\ramse\.gradle\caches\transforms-3\c36f966c40293593f08d758757df629d\transformed\play-services-measurement-21.2.0\AndroidManifest.xml:31:13-35
+71            android:exported="false" >
+71-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\ramse\.gradle\caches\transforms-3\c36f966c40293593f08d758757df629d\transformed\play-services-measurement-21.2.0\AndroidManifest.xml:32:13-37
+72        </receiver>
+73
+74        <service
+74-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\ramse\.gradle\caches\transforms-3\c36f966c40293593f08d758757df629d\transformed\play-services-measurement-21.2.0\AndroidManifest.xml:35:9-38:40
+75            android:name="com.google.android.gms.measurement.AppMeasurementService"
+75-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\ramse\.gradle\caches\transforms-3\c36f966c40293593f08d758757df629d\transformed\play-services-measurement-21.2.0\AndroidManifest.xml:36:13-84
+76            android:enabled="true"
+76-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\ramse\.gradle\caches\transforms-3\c36f966c40293593f08d758757df629d\transformed\play-services-measurement-21.2.0\AndroidManifest.xml:37:13-35
+77            android:exported="false" />
+77-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\ramse\.gradle\caches\transforms-3\c36f966c40293593f08d758757df629d\transformed\play-services-measurement-21.2.0\AndroidManifest.xml:38:13-37
+78        <service
+78-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\ramse\.gradle\caches\transforms-3\c36f966c40293593f08d758757df629d\transformed\play-services-measurement-21.2.0\AndroidManifest.xml:39:9-43:72
+79            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+79-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\ramse\.gradle\caches\transforms-3\c36f966c40293593f08d758757df629d\transformed\play-services-measurement-21.2.0\AndroidManifest.xml:40:13-87
+80            android:enabled="true"
+80-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\ramse\.gradle\caches\transforms-3\c36f966c40293593f08d758757df629d\transformed\play-services-measurement-21.2.0\AndroidManifest.xml:41:13-35
+81            android:exported="false"
+81-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\ramse\.gradle\caches\transforms-3\c36f966c40293593f08d758757df629d\transformed\play-services-measurement-21.2.0\AndroidManifest.xml:42:13-37
+82            android:permission="android.permission.BIND_JOB_SERVICE" />
+82-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\ramse\.gradle\caches\transforms-3\c36f966c40293593f08d758757df629d\transformed\play-services-measurement-21.2.0\AndroidManifest.xml:43:13-69
+83
+84        <meta-data
+84-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\ramse\.gradle\caches\transforms-3\277df2ec142ed3bab5f6ebc3feac2e12\transformed\play-services-basement-18.1.0\AndroidManifest.xml:21:9-23:69
+85            android:name="com.google.android.gms.version"
+85-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\ramse\.gradle\caches\transforms-3\277df2ec142ed3bab5f6ebc3feac2e12\transformed\play-services-basement-18.1.0\AndroidManifest.xml:22:13-58
+86            android:value="@integer/google_play_services_version" />
+86-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\ramse\.gradle\caches\transforms-3\277df2ec142ed3bab5f6ebc3feac2e12\transformed\play-services-basement-18.1.0\AndroidManifest.xml:23:13-66
+87
+88        <provider
+88-->[androidx.emoji2:emoji2:1.0.0] C:\Users\ramse\.gradle\caches\transforms-3\328f6cb59ce7e3a25fa65d8513e6c460\transformed\emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+89            android:name="androidx.startup.InitializationProvider"
+89-->[androidx.emoji2:emoji2:1.0.0] C:\Users\ramse\.gradle\caches\transforms-3\328f6cb59ce7e3a25fa65d8513e6c460\transformed\emoji2-1.0.0\AndroidManifest.xml:27:13-67
+90            android:authorities="com.example.gameapp.androidx-startup"
+90-->[androidx.emoji2:emoji2:1.0.0] C:\Users\ramse\.gradle\caches\transforms-3\328f6cb59ce7e3a25fa65d8513e6c460\transformed\emoji2-1.0.0\AndroidManifest.xml:28:13-68
+91            android:exported="false" >
+91-->[androidx.emoji2:emoji2:1.0.0] C:\Users\ramse\.gradle\caches\transforms-3\328f6cb59ce7e3a25fa65d8513e6c460\transformed\emoji2-1.0.0\AndroidManifest.xml:29:13-37
+92            <meta-data
+92-->[androidx.emoji2:emoji2:1.0.0] C:\Users\ramse\.gradle\caches\transforms-3\328f6cb59ce7e3a25fa65d8513e6c460\transformed\emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+93                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+93-->[androidx.emoji2:emoji2:1.0.0] C:\Users\ramse\.gradle\caches\transforms-3\328f6cb59ce7e3a25fa65d8513e6c460\transformed\emoji2-1.0.0\AndroidManifest.xml:32:17-75
+94                android:value="androidx.startup" />
+94-->[androidx.emoji2:emoji2:1.0.0] C:\Users\ramse\.gradle\caches\transforms-3\328f6cb59ce7e3a25fa65d8513e6c460\transformed\emoji2-1.0.0\AndroidManifest.xml:33:17-49
+95            <meta-data
+95-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\ramse\.gradle\caches\transforms-3\1743b402615678831bad530ddb9b25bc\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+96                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+96-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\ramse\.gradle\caches\transforms-3\1743b402615678831bad530ddb9b25bc\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+97                android:value="androidx.startup" />
+97-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\ramse\.gradle\caches\transforms-3\1743b402615678831bad530ddb9b25bc\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+98        </provider>
+99    </application>
+100
+101</manifest>

@@ -104,11 +104,17 @@ string d_tail_du_jeu
 string d_tail_du_jeu_image
 string d_tail_du_jeu_image2
 string d_tail_du_jeu_image3
+string default_web_client_id
 string description
 string e_mail
 string empty_likes
 string empty_wishlist
 string en_savoir_plus
+string gcm_defaultSenderId
+string google_api_key
+string google_app_id
+string google_crash_reporting_api_key
+string google_storage_bucket
 string inscription
 string jeu_accueil
 string jeu_accueil2
@@ -129,6 +135,7 @@ string nombre_de_r_sultats_42
 string placeholder
 string placeholder2
 string prix_10_00
+string project_id
 string recherche
 string rechercher_un_jeu
 string renvoyer_mon_mot_de_passe
