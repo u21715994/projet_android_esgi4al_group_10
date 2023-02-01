@@ -1,21 +1,50 @@
 package com.example.gameapp.activity
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.LayoutInflater
 import android.view.View
-import androidx.recyclerview.widget.LinearLayoutManager
-import androidx.recyclerview.widget.RecyclerView
-import com.example.gameapp.NetworkManager2
+import android.view.ViewGroup
+import android.widget.Button
+import android.widget.TextView
+import androidx.fragment.app.Fragment
 import com.example.gameapp.R
-import com.example.gameapp.adapter.ReviewGameAdapter
-import kotlinx.coroutines.Dispatchers
-import kotlinx.coroutines.GlobalScope
-import kotlinx.coroutines.launch
-import kotlinx.coroutines.withContext
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+
+        supportFragmentManager.beginTransaction()
+            .replace(R.id.fragment_container, MainFragment())
+            .addToBackStack("main_activity")
+            .commit()
+    }
+
+    class MainFragment: Fragment(){
+        override fun onCreateView(
+            inflater: LayoutInflater,
+            container: ViewGroup?,
+            savedInstanceState: Bundle?
+        ): View? {
+            return LayoutInflater.from(requireContext())
+                .inflate(R.layout.activity_main_fragment, container, false)
+        }
+
+        override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+            super.onViewCreated(view, savedInstanceState)
+            val goToSignIn = view.findViewById<Button>(R.id.button2)
+            goToSignIn.setOnClickListener(View.OnClickListener {
+                val intent = Intent(context, InscriptionActivity::class.java)
+                startActivity(intent)
+            })
+
+            val passwordForget = view.findViewById<TextView>(R.id.textView3)
+            passwordForget.setOnClickListener(View.OnClickListener {
+                val intent = Intent(context, MDPOublieActivity::class.java)
+                startActivity(intent)
+            })
+        }
     }
 }

@@ -21,5 +21,7 @@ class GameListAdapter(val values: List<Rank>): RecyclerView.Adapter<RecyclerView
     override fun onBindViewHolder(holder: RecyclerView.ViewHolder, position: Int) {
         (holder as GameListHolder)
             .bindValue(values[position])
+        (holder as GameListHolder)
+            .clickOnButton(values[position])
     }
 }

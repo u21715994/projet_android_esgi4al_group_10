@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.gameapp-mergeDebugResources-24:/values-my/values-my.xml",
+            "outputFile": "com.example.gameapp-mergeDebugResources-28:/values-my/values-my.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Admin\\.gradle\\caches\\transforms-3\\ad4a9900ee650cab445b7a64bbefb6e8\\transformed\\appcompat-1.4.1\\res\\values-my\\values-my.xml",
@@ -40,7 +40,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Admin\\.gradle\\caches\\transforms-3\\9df45a95e4e06a011612ef3452b5826c\\transformed\\core-1.7.0\\res\\values-my\\values-my.xml",
+                    "source": "C:\\Users\\Admin\\.gradle\\caches\\transforms-3\\205feb206244c8c1b4b56fcdc8d69988\\transformed\\core-1.8.0\\res\\values-my\\values-my.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

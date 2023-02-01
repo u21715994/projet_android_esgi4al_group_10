@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.gameapp-mergeDebugResources-24:/values-vi/values-vi.xml",
+            "outputFile": "com.example.gameapp-mergeDebugResources-28:/values-vi/values-vi.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Admin\\.gradle\\caches\\transforms-3\\6571209f3fbd259d19d2adf408a1b7c0\\transformed\\material-1.5.0\\res\\values-vi\\values-vi.xml",
@@ -23,7 +23,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Admin\\.gradle\\caches\\transforms-3\\9df45a95e4e06a011612ef3452b5826c\\transformed\\core-1.7.0\\res\\values-vi\\values-vi.xml",
+                    "source": "C:\\Users\\Admin\\.gradle\\caches\\transforms-3\\205feb206244c8c1b4b56fcdc8d69988\\transformed\\core-1.8.0\\res\\values-vi\\values-vi.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
