@@ -78,8 +78,9 @@ class AccueilActivity : AppCompatActivity() {
                     val moreInformation: Button = view.findViewById(R.id.button)
                     moreInformation.setOnClickListener(View.OnClickListener {
                         parentFragmentManager.beginTransaction()
-                            .add(R.id.fragment_container, DescriptionGameActivity.DescriptionGameFragment.newInstance(gameID))
-                            .commit()
+                            .replace(R.id.fragment_container, DescriptionGameActivity.DescriptionGameFragment.newInstance(gameID))
+                            .addToBackStack("more_information")
+                            .commitAllowingStateLoss()
                     })
                 } catch (e: Exception) {
 

@@ -2,6 +2,7 @@ package com.example.gameapp.activity
 
 import android.content.Intent
 import android.os.Bundle
+import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -88,8 +89,9 @@ class DescriptionGameActivity : AppCompatActivity() {
             val goToReviewButton = view.findViewById<TextView>(R.id.textView5)
             goToReviewButton.setOnClickListener(View.OnClickListener {
                 parentFragmentManager.beginTransaction()
-                    .add(R.id.fragment_container, ReviewGameActivity.ReviewGameFragment.newInstance(gameID))
-                    .commit()
+                    .replace(R.id.fragment_container, ReviewGameActivity.ReviewGameFragment.newInstance(gameID))
+                    .addToBackStack("review_game")
+                    .commitAllowingStateLoss()
             })
         }
     }

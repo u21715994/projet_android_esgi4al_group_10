@@ -36,14 +36,18 @@ class MainActivity : AppCompatActivity() {
             super.onViewCreated(view, savedInstanceState)
             val goToSignIn = view.findViewById<Button>(R.id.button2)
             goToSignIn.setOnClickListener(View.OnClickListener {
-                val intent = Intent(context, InscriptionActivity::class.java)
-                startActivity(intent)
+                parentFragmentManager.beginTransaction()
+                    .replace(R.id.fragment_container, InscriptionActivity.InscriptionFragment())
+                    .addToBackStack("inscription")
+                    .commitAllowingStateLoss()
             })
 
             val passwordForget = view.findViewById<TextView>(R.id.textView3)
             passwordForget.setOnClickListener(View.OnClickListener {
-                val intent = Intent(context, MDPOublieActivity::class.java)
-                startActivity(intent)
+                parentFragmentManager.beginTransaction()
+                    .replace(R.id.fragment_container, MDPOublieActivity.MDPOublieFragment())
+                    .addToBackStack("mot_passe_oublie")
+                    .commitAllowingStateLoss()
             })
         }
     }

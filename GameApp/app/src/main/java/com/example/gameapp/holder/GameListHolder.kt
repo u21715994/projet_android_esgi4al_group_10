@@ -11,6 +11,7 @@ import com.example.gameapp.NetworkManager2
 import com.example.gameapp.R
 import com.example.gameapp.Rank
 import com.example.gameapp.activity.DescriptionGameActivity
+import com.example.gameapp.activity.InscriptionActivity
 import com.example.gameapp.activity.RechercheActivity
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.GlobalScope
@@ -50,7 +51,8 @@ class GameListHolder(view: View): RecyclerView.ViewHolder(view) {
         button.setOnClickListener {
             (itemView.context as FragmentActivity).supportFragmentManager.beginTransaction()
                 .replace(R.id.fragment_container, DescriptionGameActivity.DescriptionGameFragment.newInstance(rank.appId.toString()))
-                .commit()
+                .addToBackStack("description")
+                .commitAllowingStateLoss()
         }
     }
 }
