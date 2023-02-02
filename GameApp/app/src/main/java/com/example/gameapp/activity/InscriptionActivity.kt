@@ -27,7 +27,15 @@ class InscriptionActivity : AppCompatActivity() {
             val username = findViewById<EditText>(R.id.editText3).text.toString()
             val userData = mapOf("username" to username)
             val auth = UserAuth()
-            auth.createU(email, password, userData,this)
+            if(auth.createU(email, password, userData,this)){
+                //action à réaliser quand l'utilisateur est inscrit
+
+            }
+            else{
+                //Action à réaliser quand l'utilisateur n'est pas inscrit
+
+
+            }
         }
     }
 }

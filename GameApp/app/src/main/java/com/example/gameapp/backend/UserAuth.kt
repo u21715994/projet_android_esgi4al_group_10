@@ -19,10 +19,12 @@ class UserAuth {
     }
 
     //Fonction de création de notre user
-    fun createU(email: String, password: String, userData: Map<String, Any>, context: Context) {
+    fun createU(email: String, password: String, userData: Map<String, Any>, context: Context): Boolean {
+        var result = false
         mAuth!!.createUserWithEmailAndPassword(email, password)
             .addOnCompleteListener { task ->
                 if (task.isSuccessful) {
+                    result = true
                     val user = mAuth!!.currentUser
                     storeUserData(user!!.uid, userData)
                     Toast.makeText(context, "Inscription réussie!", Toast.LENGTH_SHORT).show()
@@ -30,19 +32,23 @@ class UserAuth {
                     Toast.makeText(context, "Inscription échouée, veuillez réessayer", Toast.LENGTH_SHORT).show()
                 }
             }
+        return result
     }
 
     //Fonction de connection de notre user
-    fun signInUser(email: String, password: String, context: Context) {
+    fun signInUser(email: String, password: String, context: Context): Boolean {
+        var result = false
         mAuth!!.signInWithEmailAndPassword(email, password)
             .addOnCompleteListener { task ->
                 if (task.isSuccessful) {
+                    result = true
                     val user = mAuth!!.currentUser
                     Toast.makeText(context, "Connexion réussie!", Toast.LENGTH_SHORT).show()
                 } else {
                     Toast.makeText(context, "Connexion échouée, veuillez réessayer", Toast.LENGTH_SHORT).show()
                 }
             }
+        return result
     }
 
     //Fonction pour reset le password
