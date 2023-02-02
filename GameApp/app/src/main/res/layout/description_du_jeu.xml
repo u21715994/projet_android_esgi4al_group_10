@@ -10,6 +10,6 @@
         android:id="@+id/fragment_container"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:layout="@layout/likes_vide_fragment"/>
+        tools:layout="@layout/description_game_fragment"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
