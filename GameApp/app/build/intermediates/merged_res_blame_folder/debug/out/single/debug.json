@@ -1,518 +1,522 @@
 [
     {
-        "merged": "com.example.gameapp-merged_res-35:/mipmap-mdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.gameapp-main-37:/mipmap-mdpi/ic_launcher_round.webp"
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\7.4\\com.example.gameapp-merged_res-35:\\drawable-anydpi-v24_close.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\7.4\\com.example.gameapp-pngs-30:\\drawable-anydpi-v24\\close.xml"
     },
     {
-        "merged": "com.example.gameapp-merged_res-35:/layout_activity_main.xml.flat",
-        "source": "com.example.gameapp-main-37:/layout/activity_main.xml"
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\7.4\\com.example.gameapp-merged_res-35:\\layout_likes_vides.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\7.4\\com.example.gameapp-main-37:\\layout\\likes_vides.xml"
     },
     {
-        "merged": "com.example.gameapp-merged_res-35:/drawable-ldpi_whishlist.png.flat",
-        "source": "com.example.gameapp-pngs-30:/drawable-ldpi/whishlist.png"
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\7.4\\com.example.gameapp-merged_res-35:\\drawable-xxhdpi_empty_likes.png.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\7.4\\com.example.gameapp-pngs-30:\\drawable-xxhdpi\\empty_likes.png"
     },
     {
-        "merged": "com.example.gameapp-merged_res-35:/drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
-        "source": "com.example.gameapp-pngs-30:/drawable-anydpi-v24/ic_launcher_foreground.xml"
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\7.4\\com.example.gameapp-merged_res-35:\\drawable__4e4009105272206a2d5514b4b62d86a3400506e.png.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\7.4\\com.example.gameapp-main-37:\\drawable\\_4e4009105272206a2d5514b4b62d86a3400506e.png"
     },
     {
-        "merged": "com.example.gameapp-merged_res-35:/drawable_corners_red.xml.flat",
-        "source": "com.example.gameapp-main-37:/drawable/corners_red.xml"
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\7.4\\com.example.gameapp-merged_res-35:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\7.4\\com.example.gameapp-main-37:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "com.example.gameapp-merged_res-35:/drawable_ic_baseline_star_24.xml.flat",
-        "source": "com.example.gameapp-main-37:/drawable/ic_baseline_star_24.xml"
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\7.4\\com.example.gameapp-merged_res-35:\\layout_review_game_fragment.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\7.4\\com.example.gameapp-main-37:\\layout\\review_game_fragment.xml"
     },
     {
-        "merged": "com.example.gameapp-merged_res-35:/drawable-xxxhdpi_empty_likes.png.flat",
-        "source": "com.example.gameapp-pngs-30:/drawable-xxxhdpi/empty_likes.png"
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\7.4\\com.example.gameapp-merged_res-35:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\7.4\\com.example.gameapp-main-37:\\mipmap-xhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "com.example.gameapp-merged_res-35:/font_google_sans_italic.ttf.flat",
-        "source": "com.example.gameapp-main-37:/font/google_sans_italic.ttf"
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\7.4\\com.example.gameapp-merged_res-35:\\drawable-ldpi_warning.png.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\7.4\\com.example.gameapp-pngs-30:\\drawable-ldpi\\warning.png"
     },
     {
-        "merged": "com.example.gameapp-merged_res-35:/drawable-anydpi-v24_whishlist.xml.flat",
-        "source": "com.example.gameapp-pngs-30:/drawable-anydpi-v24/whishlist.xml"
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\7.4\\com.example.gameapp-merged_res-35:\\font_proxima_nova_font.otf.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\7.4\\com.example.gameapp-main-37:\\font\\proxima_nova_font.otf"
     },
     {
-        "merged": "com.example.gameapp-merged_res-35:/layout_description_game_fragment.xml.flat",
-        "source": "com.example.gameapp-main-37:/layout/description_game_fragment.xml"
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\7.4\\com.example.gameapp-merged_res-35:\\drawable-anydpi-v24_back.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\7.4\\com.example.gameapp-pngs-30:\\drawable-anydpi-v24\\back.xml"
     },
     {
-        "merged": "com.example.gameapp-merged_res-35:/drawable-xxxhdpi_close.png.flat",
-        "source": "com.example.gameapp-pngs-30:/drawable-xxxhdpi/close.png"
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\7.4\\com.example.gameapp-merged_res-35:\\drawable-xxhdpi_like.png.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\7.4\\com.example.gameapp-pngs-30:\\drawable-xxhdpi\\like.png"
     },
     {
-        "merged": "com.example.gameapp-merged_res-35:/layout_inscription.xml.flat",
-        "source": "com.example.gameapp-main-37:/layout/inscription.xml"
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\7.4\\com.example.gameapp-merged_res-35:\\drawable-ldpi_whishlist_full.png.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\7.4\\com.example.gameapp-pngs-30:\\drawable-ldpi\\whishlist_full.png"
     },
     {
-        "merged": "com.example.gameapp-merged_res-35:/layout_avis_du_jeu.xml.flat",
-        "source": "com.example.gameapp-main-37:/layout/avis_du_jeu.xml"
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\7.4\\com.example.gameapp-merged_res-35:\\drawable-hdpi_empty_whishlist.png.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\7.4\\com.example.gameapp-pngs-30:\\drawable-hdpi\\empty_whishlist.png"
     },
     {
-        "merged": "com.example.gameapp-merged_res-35:/drawable-anydpi-v24_warning.xml.flat",
-        "source": "com.example.gameapp-pngs-30:/drawable-anydpi-v24/warning.xml"
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\7.4\\com.example.gameapp-merged_res-35:\\drawable-xxxhdpi_empty_whishlist.png.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\7.4\\com.example.gameapp-pngs-30:\\drawable-xxxhdpi\\empty_whishlist.png"
     },
     {
-        "merged": "com.example.gameapp-merged_res-35:/drawable__ca16574a899bca8c1ebfb4c53fcac5b577375ee.png.flat",
-        "source": "com.example.gameapp-main-37:/drawable/_ca16574a899bca8c1ebfb4c53fcac5b577375ee.png"
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\7.4\\com.example.gameapp-merged_res-35:\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\7.4\\com.example.gameapp-main-37:\\mipmap-hdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "com.example.gameapp-merged_res-35:/drawable-xxhdpi_close.png.flat",
-        "source": "com.example.gameapp-pngs-30:/drawable-xxhdpi/close.png"
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\7.4\\com.example.gameapp-merged_res-35:\\layout_mdp_oublie_fragment.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\7.4\\com.example.gameapp-main-37:\\layout\\mdp_oublie_fragment.xml"
     },
     {
-        "merged": "com.example.gameapp-merged_res-35:/drawable_ic_launcher_background.xml.flat",
-        "source": "com.example.gameapp-main-37:/drawable/ic_launcher_background.xml"
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\7.4\\com.example.gameapp-merged_res-35:\\layout_accueil.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\7.4\\com.example.gameapp-main-37:\\layout\\accueil.xml"
     },
     {
-        "merged": "com.example.gameapp-merged_res-35:/mipmap-xhdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.gameapp-main-37:/mipmap-xhdpi/ic_launcher_round.webp"
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\7.4\\com.example.gameapp-merged_res-35:\\drawable-xxhdpi_warning.png.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\7.4\\com.example.gameapp-pngs-30:\\drawable-xxhdpi\\warning.png"
     },
     {
-        "merged": "com.example.gameapp-merged_res-35:/drawable-xxxhdpi_like.png.flat",
-        "source": "com.example.gameapp-pngs-30:/drawable-xxxhdpi/like.png"
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\7.4\\com.example.gameapp-merged_res-35:\\drawable-xhdpi_close.png.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\7.4\\com.example.gameapp-pngs-30:\\drawable-xhdpi\\close.png"
     },
     {
-        "merged": "com.example.gameapp-merged_res-35:/layout_mes_likes.xml.flat",
-        "source": "com.example.gameapp-main-37:/layout/mes_likes.xml"
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\7.4\\com.example.gameapp-merged_res-35:\\drawable-mdpi_whishlist_full.png.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\7.4\\com.example.gameapp-pngs-30:\\drawable-mdpi\\whishlist_full.png"
     },
     {
-        "merged": "com.example.gameapp-merged_res-35:/drawable__4e4009105272206a2d5514b4b62d86a3400506e.png.flat",
-        "source": "com.example.gameapp-main-37:/drawable/_4e4009105272206a2d5514b4b62d86a3400506e.png"
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\7.4\\com.example.gameapp-merged_res-35:\\layout_game_list.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\7.4\\com.example.gameapp-main-37:\\layout\\game_list.xml"
     },
     {
-        "merged": "com.example.gameapp-merged_res-35:/drawable-xhdpi_whishlist.png.flat",
-        "source": "com.example.gameapp-pngs-30:/drawable-xhdpi/whishlist.png"
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\7.4\\com.example.gameapp-merged_res-35:\\drawable-xxhdpi_close.png.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\7.4\\com.example.gameapp-pngs-30:\\drawable-xxhdpi\\close.png"
     },
     {
-        "merged": "com.example.gameapp-merged_res-35:/drawable-hdpi_like.png.flat",
-        "source": "com.example.gameapp-pngs-30:/drawable-hdpi/like.png"
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\7.4\\com.example.gameapp-merged_res-35:\\drawable-xxxhdpi_like.png.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\7.4\\com.example.gameapp-pngs-30:\\drawable-xxxhdpi\\like.png"
     },
     {
-        "merged": "com.example.gameapp-merged_res-35:/drawable_ic_baseline_search_24.xml.flat",
-        "source": "com.example.gameapp-main-37:/drawable/ic_baseline_search_24.xml"
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\7.4\\com.example.gameapp-merged_res-35:\\font_google_sans.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\7.4\\com.example.gameapp-main-37:\\font\\google_sans.xml"
     },
     {
-        "merged": "com.example.gameapp-merged_res-35:/drawable-mdpi_empty_likes.png.flat",
-        "source": "com.example.gameapp-pngs-30:/drawable-mdpi/empty_likes.png"
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\7.4\\com.example.gameapp-merged_res-35:\\drawable-xxxhdpi_like_full.png.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\7.4\\com.example.gameapp-pngs-30:\\drawable-xxxhdpi\\like_full.png"
     },
     {
-        "merged": "com.example.gameapp-merged_res-35:/drawable-mdpi_back.png.flat",
-        "source": "com.example.gameapp-pngs-30:/drawable-mdpi/back.png"
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\7.4\\com.example.gameapp-merged_res-35:\\drawable-hdpi_back.png.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\7.4\\com.example.gameapp-pngs-30:\\drawable-hdpi\\back.png"
     },
     {
-        "merged": "com.example.gameapp-merged_res-35:/drawable-xxxhdpi_back.png.flat",
-        "source": "com.example.gameapp-pngs-30:/drawable-xxxhdpi/back.png"
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\7.4\\com.example.gameapp-merged_res-35:\\font_google_sans_italic.ttf.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\7.4\\com.example.gameapp-main-37:\\font\\google_sans_italic.ttf"
     },
     {
-        "merged": "com.example.gameapp-merged_res-35:/drawable-ldpi_warning.png.flat",
-        "source": "com.example.gameapp-pngs-30:/drawable-ldpi/warning.png"
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\7.4\\com.example.gameapp-merged_res-35:\\layout_description_game_fragment.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\7.4\\com.example.gameapp-main-37:\\layout\\description_game_fragment.xml"
     },
     {
-        "merged": "com.example.gameapp-merged_res-35:/drawable-anydpi-v24_like_full.xml.flat",
-        "source": "com.example.gameapp-pngs-30:/drawable-anydpi-v24/like_full.xml"
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\7.4\\com.example.gameapp-merged_res-35:\\drawable-xxhdpi_like_full.png.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\7.4\\com.example.gameapp-pngs-30:\\drawable-xxhdpi\\like_full.png"
     },
     {
-        "merged": "com.example.gameapp-merged_res-35:/drawable_blue_right.xml.flat",
-        "source": "com.example.gameapp-main-37:/drawable/blue_right.xml"
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\7.4\\com.example.gameapp-merged_res-35:\\layout_wishlist_fragment.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\7.4\\com.example.gameapp-main-37:\\layout\\wishlist_fragment.xml"
     },
     {
-        "merged": "com.example.gameapp-merged_res-35:/drawable_blue.xml.flat",
-        "source": "com.example.gameapp-main-37:/drawable/blue.xml"
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\7.4\\com.example.gameapp-merged_res-35:\\drawable-mdpi_warning.png.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\7.4\\com.example.gameapp-pngs-30:\\drawable-mdpi\\warning.png"
     },
     {
-        "merged": "com.example.gameapp-merged_res-35:/layout_wishlist_vide_fragment.xml.flat",
-        "source": "com.example.gameapp-main-37:/layout/wishlist_vide_fragment.xml"
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\7.4\\com.example.gameapp-merged_res-35:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\7.4\\com.example.gameapp-main-37:\\mipmap-xxhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "com.example.gameapp-merged_res-35:/drawable-xhdpi_like.png.flat",
-        "source": "com.example.gameapp-pngs-30:/drawable-xhdpi/like.png"
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\7.4\\com.example.gameapp-merged_res-35:\\drawable-anydpi-v24_warning.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\7.4\\com.example.gameapp-pngs-30:\\drawable-anydpi-v24\\warning.xml"
     },
     {
-        "merged": "com.example.gameapp-merged_res-35:/drawable-ldpi_close.png.flat",
-        "source": "com.example.gameapp-pngs-30:/drawable-ldpi/close.png"
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\7.4\\com.example.gameapp-merged_res-35:\\xml_backup_rules.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\7.4\\com.example.gameapp-main-37:\\xml\\backup_rules.xml"
     },
     {
-        "merged": "com.example.gameapp-merged_res-35:/drawable_corners_blue.xml.flat",
-        "source": "com.example.gameapp-main-37:/drawable/corners_blue.xml"
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\7.4\\com.example.gameapp-merged_res-35:\\layout_recherche.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\7.4\\com.example.gameapp-main-37:\\layout\\recherche.xml"
     },
     {
-        "merged": "com.example.gameapp-merged_res-35:/drawable-hdpi_close.png.flat",
-        "source": "com.example.gameapp-pngs-30:/drawable-hdpi/close.png"
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\7.4\\com.example.gameapp-merged_res-35:\\layout_activity_main_fragment.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\7.4\\com.example.gameapp-main-37:\\layout\\activity_main_fragment.xml"
     },
     {
-        "merged": "com.example.gameapp-merged_res-35:/drawable-ldpi_back.png.flat",
-        "source": "com.example.gameapp-pngs-30:/drawable-ldpi/back.png"
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\7.4\\com.example.gameapp-merged_res-35:\\drawable-mdpi_like.png.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\7.4\\com.example.gameapp-pngs-30:\\drawable-mdpi\\like.png"
     },
     {
-        "merged": "com.example.gameapp-merged_res-35:/drawable-xxhdpi_warning.png.flat",
-        "source": "com.example.gameapp-pngs-30:/drawable-xxhdpi/warning.png"
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\7.4\\com.example.gameapp-merged_res-35:\\drawable-anydpi-v24_like_full.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\7.4\\com.example.gameapp-pngs-30:\\drawable-anydpi-v24\\like_full.xml"
     },
     {
-        "merged": "com.example.gameapp-merged_res-35:/drawable-xxhdpi_whishlist_full.png.flat",
-        "source": "com.example.gameapp-pngs-30:/drawable-xxhdpi/whishlist_full.png"
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\7.4\\com.example.gameapp-merged_res-35:\\drawable-anydpi-v24_empty_whishlist.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\7.4\\com.example.gameapp-pngs-30:\\drawable-anydpi-v24\\empty_whishlist.xml"
     },
     {
-        "merged": "com.example.gameapp-merged_res-35:/drawable-anydpi-v24_whishlist_full.xml.flat",
-        "source": "com.example.gameapp-pngs-30:/drawable-anydpi-v24/whishlist_full.xml"
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\7.4\\com.example.gameapp-merged_res-35:\\layout_inscription_fragment.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\7.4\\com.example.gameapp-main-37:\\layout\\inscription_fragment.xml"
     },
     {
-        "merged": "com.example.gameapp-merged_res-35:/drawable-xxhdpi_like_full.png.flat",
-        "source": "com.example.gameapp-pngs-30:/drawable-xxhdpi/like_full.png"
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\7.4\\com.example.gameapp-merged_res-35:\\drawable-hdpi_like.png.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\7.4\\com.example.gameapp-pngs-30:\\drawable-hdpi\\like.png"
     },
     {
-        "merged": "com.example.gameapp-merged_res-35:/layout_activity_main_fragment.xml.flat",
-        "source": "com.example.gameapp-main-37:/layout/activity_main_fragment.xml"
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\7.4\\com.example.gameapp-merged_res-35:\\drawable-mdpi_like_full.png.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\7.4\\com.example.gameapp-pngs-30:\\drawable-mdpi\\like_full.png"
     },
     {
-        "merged": "com.example.gameapp-merged_res-35:/font_google_sans_bold.ttf.flat",
-        "source": "com.example.gameapp-main-37:/font/google_sans_bold.ttf"
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\7.4\\com.example.gameapp-merged_res-35:\\drawable-xhdpi_whishlist.png.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\7.4\\com.example.gameapp-pngs-30:\\drawable-xhdpi\\whishlist.png"
     },
     {
-        "merged": "com.example.gameapp-merged_res-35:/drawable-ldpi_like_full.png.flat",
-        "source": "com.example.gameapp-pngs-30:/drawable-ldpi/like_full.png"
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\7.4\\com.example.gameapp-merged_res-35:\\font_google_sans_medium_italic.ttf.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\7.4\\com.example.gameapp-main-37:\\font\\google_sans_medium_italic.ttf"
     },
     {
-        "merged": "com.example.gameapp-merged_res-35:/font_google_sans_bold_italic.ttf.flat",
-        "source": "com.example.gameapp-main-37:/font/google_sans_bold_italic.ttf"
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\7.4\\com.example.gameapp-merged_res-35:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\7.4\\com.example.gameapp-main-37:\\mipmap-anydpi-v26\\ic_launcher.xml"
     },
     {
-        "merged": "com.example.gameapp-merged_res-35:/layout_recherche_fragment.xml.flat",
-        "source": "com.example.gameapp-main-37:/layout/recherche_fragment.xml"
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\7.4\\com.example.gameapp-merged_res-35:\\drawable_b1b27f074f97811567a973582f5af08e3e81b9ba.png.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\7.4\\com.example.gameapp-main-37:\\drawable\\b1b27f074f97811567a973582f5af08e3e81b9ba.png"
     },
     {
-        "merged": "com.example.gameapp-merged_res-35:/drawable-xhdpi_empty_likes.png.flat",
-        "source": "com.example.gameapp-pngs-30:/drawable-xhdpi/empty_likes.png"
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\7.4\\com.example.gameapp-merged_res-35:\\drawable-mdpi_empty_whishlist.png.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\7.4\\com.example.gameapp-pngs-30:\\drawable-mdpi\\empty_whishlist.png"
     },
     {
-        "merged": "com.example.gameapp-merged_res-35:/drawable-xxxhdpi_whishlist.png.flat",
-        "source": "com.example.gameapp-pngs-30:/drawable-xxxhdpi/whishlist.png"
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\7.4\\com.example.gameapp-merged_res-35:\\xml_data_extraction_rules.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\7.4\\com.example.gameapp-main-37:\\xml\\data_extraction_rules.xml"
     },
     {
-        "merged": "com.example.gameapp-merged_res-35:/drawable-xxhdpi_back.png.flat",
-        "source": "com.example.gameapp-pngs-30:/drawable-xxhdpi/back.png"
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\7.4\\com.example.gameapp-merged_res-35:\\drawable-hdpi_empty_likes.png.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\7.4\\com.example.gameapp-pngs-30:\\drawable-hdpi\\empty_likes.png"
     },
     {
-        "merged": "com.example.gameapp-merged_res-35:/font_proxima_nova_font.otf.flat",
-        "source": "com.example.gameapp-main-37:/font/proxima_nova_font.otf"
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\7.4\\com.example.gameapp-merged_res-35:\\drawable_corners_transparent.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\7.4\\com.example.gameapp-main-37:\\drawable\\corners_transparent.xml"
     },
     {
-        "merged": "com.example.gameapp-merged_res-35:/drawable-xhdpi_whishlist_full.png.flat",
-        "source": "com.example.gameapp-pngs-30:/drawable-xhdpi/whishlist_full.png"
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\7.4\\com.example.gameapp-merged_res-35:\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\7.4\\com.example.gameapp-main-37:\\mipmap-hdpi\\ic_launcher.webp"
     },
     {
-        "merged": "com.example.gameapp-merged_res-35:/layout_inscription_fragment.xml.flat",
-        "source": "com.example.gameapp-main-37:/layout/inscription_fragment.xml"
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\7.4\\com.example.gameapp-merged_res-35:\\drawable_fb1cc60ad136c7ecb06d28271f5ca48b80475e43.png.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\7.4\\com.example.gameapp-main-37:\\drawable\\fb1cc60ad136c7ecb06d28271f5ca48b80475e43.png"
     },
     {
-        "merged": "com.example.gameapp-merged_res-35:/drawable__b51c61576789a1f7048d1b315092e5bf120f092.png.flat",
-        "source": "com.example.gameapp-main-37:/drawable/_b51c61576789a1f7048d1b315092e5bf120f092.png"
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\7.4\\com.example.gameapp-merged_res-35:\\drawable__ca16574a899bca8c1ebfb4c53fcac5b577375ee.png.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\7.4\\com.example.gameapp-main-37:\\drawable\\_ca16574a899bca8c1ebfb4c53fcac5b577375ee.png"
     },
     {
-        "merged": "com.example.gameapp-merged_res-35:/layout_recherche.xml.flat",
-        "source": "com.example.gameapp-main-37:/layout/recherche.xml"
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\7.4\\com.example.gameapp-merged_res-35:\\drawable-mdpi_close.png.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\7.4\\com.example.gameapp-pngs-30:\\drawable-mdpi\\close.png"
     },
     {
-        "merged": "com.example.gameapp-merged_res-35:/layout_list_game_fragment.xml.flat",
-        "source": "com.example.gameapp-main-37:/layout/list_game_fragment.xml"
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\7.4\\com.example.gameapp-merged_res-35:\\drawable-xxxhdpi_back.png.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\7.4\\com.example.gameapp-pngs-30:\\drawable-xxxhdpi\\back.png"
     },
     {
-        "merged": "com.example.gameapp-merged_res-35:/mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "com.example.gameapp-main-37:/mipmap-anydpi-v26/ic_launcher.xml"
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\7.4\\com.example.gameapp-merged_res-35:\\drawable_blue_left.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\7.4\\com.example.gameapp-main-37:\\drawable\\blue_left.xml"
     },
     {
-        "merged": "com.example.gameapp-merged_res-35:/drawable-ldpi_whishlist_full.png.flat",
-        "source": "com.example.gameapp-pngs-30:/drawable-ldpi/whishlist_full.png"
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\7.4\\com.example.gameapp-merged_res-35:\\drawable-ldpi_close.png.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\7.4\\com.example.gameapp-pngs-30:\\drawable-ldpi\\close.png"
     },
     {
-        "merged": "com.example.gameapp-merged_res-35:/drawable-mdpi_whishlist.png.flat",
-        "source": "com.example.gameapp-pngs-30:/drawable-mdpi/whishlist.png"
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\7.4\\com.example.gameapp-merged_res-35:\\drawable-xxhdpi_empty_whishlist.png.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\7.4\\com.example.gameapp-pngs-30:\\drawable-xxhdpi\\empty_whishlist.png"
     },
     {
-        "merged": "com.example.gameapp-merged_res-35:/drawable-xxhdpi_empty_likes.png.flat",
-        "source": "com.example.gameapp-pngs-30:/drawable-xxhdpi/empty_likes.png"
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\7.4\\com.example.gameapp-merged_res-35:\\layout_avis_du_jeu.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\7.4\\com.example.gameapp-main-37:\\layout\\avis_du_jeu.xml"
     },
     {
-        "merged": "com.example.gameapp-merged_res-35:/drawable-mdpi_empty_whishlist.png.flat",
-        "source": "com.example.gameapp-pngs-30:/drawable-mdpi/empty_whishlist.png"
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\7.4\\com.example.gameapp-merged_res-35:\\drawable-ldpi_whishlist.png.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\7.4\\com.example.gameapp-pngs-30:\\drawable-ldpi\\whishlist.png"
     },
     {
-        "merged": "com.example.gameapp-merged_res-35:/drawable-xhdpi_back.png.flat",
-        "source": "com.example.gameapp-pngs-30:/drawable-xhdpi/back.png"
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\7.4\\com.example.gameapp-merged_res-35:\\drawable_corners_blue.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\7.4\\com.example.gameapp-main-37:\\drawable\\corners_blue.xml"
     },
     {
-        "merged": "com.example.gameapp-merged_res-35:/drawable-anydpi-v24_like.xml.flat",
-        "source": "com.example.gameapp-pngs-30:/drawable-anydpi-v24/like.xml"
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\7.4\\com.example.gameapp-merged_res-35:\\drawable-mdpi_empty_likes.png.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\7.4\\com.example.gameapp-pngs-30:\\drawable-mdpi\\empty_likes.png"
     },
     {
-        "merged": "com.example.gameapp-merged_res-35:/drawable-hdpi_back.png.flat",
-        "source": "com.example.gameapp-pngs-30:/drawable-hdpi/back.png"
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\7.4\\com.example.gameapp-merged_res-35:\\drawable-xxhdpi_back.png.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\7.4\\com.example.gameapp-pngs-30:\\drawable-xxhdpi\\back.png"
     },
     {
-        "merged": "com.example.gameapp-merged_res-35:/drawable-mdpi_like_full.png.flat",
-        "source": "com.example.gameapp-pngs-30:/drawable-mdpi/like_full.png"
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\7.4\\com.example.gameapp-merged_res-35:\\drawable-ldpi_like_full.png.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\7.4\\com.example.gameapp-pngs-30:\\drawable-ldpi\\like_full.png"
     },
     {
-        "merged": "com.example.gameapp-merged_res-35:/drawable-mdpi_whishlist_full.png.flat",
-        "source": "com.example.gameapp-pngs-30:/drawable-mdpi/whishlist_full.png"
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\7.4\\com.example.gameapp-merged_res-35:\\drawable-xhdpi_whishlist_full.png.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\7.4\\com.example.gameapp-pngs-30:\\drawable-xhdpi\\whishlist_full.png"
     },
     {
-        "merged": "com.example.gameapp-merged_res-35:/drawable__1abf45f2aea138fb723b5848537263cee2ddaf0.png.flat",
-        "source": "com.example.gameapp-main-37:/drawable/_1abf45f2aea138fb723b5848537263cee2ddaf0.png"
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\7.4\\com.example.gameapp-merged_res-35:\\drawable-mdpi_whishlist.png.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\7.4\\com.example.gameapp-pngs-30:\\drawable-mdpi\\whishlist.png"
     },
     {
-        "merged": "com.example.gameapp-merged_res-35:/drawable-xxxhdpi_empty_whishlist.png.flat",
-        "source": "com.example.gameapp-pngs-30:/drawable-xxxhdpi/empty_whishlist.png"
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\7.4\\com.example.gameapp-merged_res-35:\\drawable_ic_baseline_star_24.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\7.4\\com.example.gameapp-main-37:\\drawable\\ic_baseline_star_24.xml"
     },
     {
-        "merged": "com.example.gameapp-merged_res-35:/drawable-anydpi-v24_empty_likes.xml.flat",
-        "source": "com.example.gameapp-pngs-30:/drawable-anydpi-v24/empty_likes.xml"
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\7.4\\com.example.gameapp-merged_res-35:\\drawable-xxxhdpi_close.png.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\7.4\\com.example.gameapp-pngs-30:\\drawable-xxxhdpi\\close.png"
     },
     {
-        "merged": "com.example.gameapp-merged_res-35:/drawable-xxxhdpi_like_full.png.flat",
-        "source": "com.example.gameapp-pngs-30:/drawable-xxxhdpi/like_full.png"
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\7.4\\com.example.gameapp-merged_res-35:\\drawable-anydpi-v24_empty_likes.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\7.4\\com.example.gameapp-pngs-30:\\drawable-anydpi-v24\\empty_likes.xml"
     },
     {
-        "merged": "com.example.gameapp-merged_res-35:/mipmap-hdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.gameapp-main-37:/mipmap-hdpi/ic_launcher_round.webp"
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\7.4\\com.example.gameapp-merged_res-35:\\drawable-hdpi_warning.png.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\7.4\\com.example.gameapp-pngs-30:\\drawable-hdpi\\warning.png"
     },
     {
-        "merged": "com.example.gameapp-merged_res-35:/font_google_sans.xml.flat",
-        "source": "com.example.gameapp-main-37:/font/google_sans.xml"
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\7.4\\com.example.gameapp-merged_res-35:\\drawable-ldpi_empty_likes.png.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\7.4\\com.example.gameapp-pngs-30:\\drawable-ldpi\\empty_likes.png"
     },
     {
-        "merged": "com.example.gameapp-merged_res-35:/drawable_blue_left.xml.flat",
-        "source": "com.example.gameapp-main-37:/drawable/blue_left.xml"
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\7.4\\com.example.gameapp-merged_res-35:\\drawable-xxxhdpi_warning.png.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\7.4\\com.example.gameapp-pngs-30:\\drawable-xxxhdpi\\warning.png"
     },
     {
-        "merged": "com.example.gameapp-merged_res-35:/drawable_corners.xml.flat",
-        "source": "com.example.gameapp-main-37:/drawable/corners.xml"
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\7.4\\com.example.gameapp-merged_res-35:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\7.4\\com.example.gameapp-main-37:\\layout\\activity_main.xml"
     },
     {
-        "merged": "com.example.gameapp-merged_res-35:/drawable-xxhdpi_whishlist.png.flat",
-        "source": "com.example.gameapp-pngs-30:/drawable-xxhdpi/whishlist.png"
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\7.4\\com.example.gameapp-merged_res-35:\\layout_wishlist.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\7.4\\com.example.gameapp-main-37:\\layout\\wishlist.xml"
     },
     {
-        "merged": "com.example.gameapp-merged_res-35:/drawable-ldpi_like.png.flat",
-        "source": "com.example.gameapp-pngs-30:/drawable-ldpi/like.png"
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\7.4\\com.example.gameapp-merged_res-35:\\drawable-anydpi-v24_whishlist.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\7.4\\com.example.gameapp-pngs-30:\\drawable-anydpi-v24\\whishlist.xml"
     },
     {
-        "merged": "com.example.gameapp-merged_res-35:/drawable-hdpi_empty_likes.png.flat",
-        "source": "com.example.gameapp-pngs-30:/drawable-hdpi/empty_likes.png"
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\7.4\\com.example.gameapp-merged_res-35:\\drawable-mdpi_back.png.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\7.4\\com.example.gameapp-pngs-30:\\drawable-mdpi\\back.png"
     },
     {
-        "merged": "com.example.gameapp-merged_res-35:/mipmap-mdpi_ic_launcher.webp.flat",
-        "source": "com.example.gameapp-main-37:/mipmap-mdpi/ic_launcher.webp"
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\7.4\\com.example.gameapp-merged_res-35:\\drawable__1b647b61fc36fb6c8bbfb1f2169773c1a228f53.png.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\7.4\\com.example.gameapp-main-37:\\drawable\\_1b647b61fc36fb6c8bbfb1f2169773c1a228f53.png"
     },
     {
-        "merged": "com.example.gameapp-merged_res-35:/layout_game_list.xml.flat",
-        "source": "com.example.gameapp-main-37:/layout/game_list.xml"
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\7.4\\com.example.gameapp-merged_res-35:\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\7.4\\com.example.gameapp-main-37:\\mipmap-xhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "com.example.gameapp-merged_res-35:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "com.example.gameapp-main-37:/mipmap-anydpi-v26/ic_launcher_round.xml"
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\7.4\\com.example.gameapp-merged_res-35:\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\7.4\\com.example.gameapp-main-37:\\mipmap-mdpi\\ic_launcher.webp"
     },
     {
-        "merged": "com.example.gameapp-merged_res-35:/drawable-hdpi_whishlist.png.flat",
-        "source": "com.example.gameapp-pngs-30:/drawable-hdpi/whishlist.png"
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\7.4\\com.example.gameapp-merged_res-35:\\layout_wishlist_vide_fragment.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\7.4\\com.example.gameapp-main-37:\\layout\\wishlist_vide_fragment.xml"
     },
     {
-        "merged": "com.example.gameapp-merged_res-35:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.gameapp-main-37:/mipmap-xxhdpi/ic_launcher_round.webp"
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\7.4\\com.example.gameapp-merged_res-35:\\drawable-xhdpi_empty_whishlist.png.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\7.4\\com.example.gameapp-pngs-30:\\drawable-xhdpi\\empty_whishlist.png"
     },
     {
-        "merged": "com.example.gameapp-merged_res-35:/layout_accueil.xml.flat",
-        "source": "com.example.gameapp-main-37:/layout/accueil.xml"
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\7.4\\com.example.gameapp-merged_res-35:\\layout_wishlist_vides.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\7.4\\com.example.gameapp-main-37:\\layout\\wishlist_vides.xml"
     },
     {
-        "merged": "com.example.gameapp-merged_res-35:/drawable-xhdpi_close.png.flat",
-        "source": "com.example.gameapp-pngs-30:/drawable-xhdpi/close.png"
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\7.4\\com.example.gameapp-merged_res-35:\\drawable_corners.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\7.4\\com.example.gameapp-main-37:\\drawable\\corners.xml"
     },
     {
-        "merged": "com.example.gameapp-merged_res-35:/drawable-xxhdpi_empty_whishlist.png.flat",
-        "source": "com.example.gameapp-pngs-30:/drawable-xxhdpi/empty_whishlist.png"
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\7.4\\com.example.gameapp-merged_res-35:\\drawable-hdpi_close.png.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\7.4\\com.example.gameapp-pngs-30:\\drawable-hdpi\\close.png"
     },
     {
-        "merged": "com.example.gameapp-merged_res-35:/drawable_b1b27f074f97811567a973582f5af08e3e81b9ba.png.flat",
-        "source": "com.example.gameapp-main-37:/drawable/b1b27f074f97811567a973582f5af08e3e81b9ba.png"
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\7.4\\com.example.gameapp-merged_res-35:\\drawable-xhdpi_like.png.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\7.4\\com.example.gameapp-pngs-30:\\drawable-xhdpi\\like.png"
     },
     {
-        "merged": "com.example.gameapp-merged_res-35:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.gameapp-main-37:/mipmap-xxxhdpi/ic_launcher_round.webp"
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\7.4\\com.example.gameapp-merged_res-35:\\font_google_sans_regular.ttf.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\7.4\\com.example.gameapp-main-37:\\font\\google_sans_regular.ttf"
     },
     {
-        "merged": "com.example.gameapp-merged_res-35:/drawable-ldpi_empty_likes.png.flat",
-        "source": "com.example.gameapp-pngs-30:/drawable-ldpi/empty_likes.png"
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\7.4\\com.example.gameapp-merged_res-35:\\drawable-ldpi_back.png.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\7.4\\com.example.gameapp-pngs-30:\\drawable-ldpi\\back.png"
     },
     {
-        "merged": "com.example.gameapp-merged_res-35:/layout_mdp_oublie_fragment.xml.flat",
-        "source": "com.example.gameapp-main-37:/layout/mdp_oublie_fragment.xml"
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\7.4\\com.example.gameapp-merged_res-35:\\drawable_ic_baseline_search_24.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\7.4\\com.example.gameapp-main-37:\\drawable\\ic_baseline_search_24.xml"
     },
     {
-        "merged": "com.example.gameapp-merged_res-35:/drawable-hdpi_whishlist_full.png.flat",
-        "source": "com.example.gameapp-pngs-30:/drawable-hdpi/whishlist_full.png"
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\7.4\\com.example.gameapp-merged_res-35:\\font_google_sans_bold.ttf.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\7.4\\com.example.gameapp-main-37:\\font\\google_sans_bold.ttf"
     },
     {
-        "merged": "com.example.gameapp-merged_res-35:/layout_wishlist_vides.xml.flat",
-        "source": "com.example.gameapp-main-37:/layout/wishlist_vides.xml"
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\7.4\\com.example.gameapp-merged_res-35:\\drawable-xhdpi_empty_likes.png.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\7.4\\com.example.gameapp-pngs-30:\\drawable-xhdpi\\empty_likes.png"
     },
     {
-        "merged": "com.example.gameapp-merged_res-35:/drawable-hdpi_warning.png.flat",
-        "source": "com.example.gameapp-pngs-30:/drawable-hdpi/warning.png"
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\7.4\\com.example.gameapp-merged_res-35:\\drawable-xhdpi_like_full.png.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\7.4\\com.example.gameapp-pngs-30:\\drawable-xhdpi\\like_full.png"
     },
     {
-        "merged": "com.example.gameapp-merged_res-35:/drawable-anydpi-v24_close.xml.flat",
-        "source": "com.example.gameapp-pngs-30:/drawable-anydpi-v24/close.xml"
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\7.4\\com.example.gameapp-merged_res-35:\\drawable-xhdpi_warning.png.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\7.4\\com.example.gameapp-pngs-30:\\drawable-xhdpi\\warning.png"
     },
     {
-        "merged": "com.example.gameapp-merged_res-35:/layout_likes_vides.xml.flat",
-        "source": "com.example.gameapp-main-37:/layout/likes_vides.xml"
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\7.4\\com.example.gameapp-merged_res-35:\\layout_accueil_fragment.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\7.4\\com.example.gameapp-main-37:\\layout\\accueil_fragment.xml"
     },
     {
-        "merged": "com.example.gameapp-merged_res-35:/font_google_sans_regular.ttf.flat",
-        "source": "com.example.gameapp-main-37:/font/google_sans_regular.ttf"
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\7.4\\com.example.gameapp-merged_res-35:\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\7.4\\com.example.gameapp-pngs-30:\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
     },
     {
-        "merged": "com.example.gameapp-merged_res-35:/drawable-mdpi_like.png.flat",
-        "source": "com.example.gameapp-pngs-30:/drawable-mdpi/like.png"
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\7.4\\com.example.gameapp-merged_res-35:\\drawable_peakpx.jpg.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\7.4\\com.example.gameapp-main-37:\\drawable\\peakpx.jpg"
     },
     {
-        "merged": "com.example.gameapp-merged_res-35:/drawable-xxhdpi_like.png.flat",
-        "source": "com.example.gameapp-pngs-30:/drawable-xxhdpi/like.png"
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\7.4\\com.example.gameapp-merged_res-35:\\drawable-xxxhdpi_empty_likes.png.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\7.4\\com.example.gameapp-pngs-30:\\drawable-xxxhdpi\\empty_likes.png"
     },
     {
-        "merged": "com.example.gameapp-merged_res-35:/drawable-xxxhdpi_warning.png.flat",
-        "source": "com.example.gameapp-pngs-30:/drawable-xxxhdpi/warning.png"
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\7.4\\com.example.gameapp-merged_res-35:\\layout_list_game_fragment.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\7.4\\com.example.gameapp-main-37:\\layout\\list_game_fragment.xml"
     },
     {
-        "merged": "com.example.gameapp-merged_res-35:/mipmap-hdpi_ic_launcher.webp.flat",
-        "source": "com.example.gameapp-main-37:/mipmap-hdpi/ic_launcher.webp"
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\7.4\\com.example.gameapp-merged_res-35:\\layout_likes_vide_fragment.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\7.4\\com.example.gameapp-main-37:\\layout\\likes_vide_fragment.xml"
     },
     {
-        "merged": "com.example.gameapp-merged_res-35:/layout_accueil_fragment.xml.flat",
-        "source": "com.example.gameapp-main-37:/layout/accueil_fragment.xml"
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\7.4\\com.example.gameapp-merged_res-35:\\drawable-anydpi-v24_like.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\7.4\\com.example.gameapp-pngs-30:\\drawable-anydpi-v24\\like.xml"
     },
     {
-        "merged": "com.example.gameapp-merged_res-35:/xml_data_extraction_rules.xml.flat",
-        "source": "com.example.gameapp-main-37:/xml/data_extraction_rules.xml"
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\7.4\\com.example.gameapp-merged_res-35:\\drawable-xxhdpi_whishlist_full.png.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\7.4\\com.example.gameapp-pngs-30:\\drawable-xxhdpi\\whishlist_full.png"
     },
     {
-        "merged": "com.example.gameapp-merged_res-35:/font_google_sans_medium_italic.ttf.flat",
-        "source": "com.example.gameapp-main-37:/font/google_sans_medium_italic.ttf"
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\7.4\\com.example.gameapp-merged_res-35:\\drawable-xhdpi_back.png.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\7.4\\com.example.gameapp-pngs-30:\\drawable-xhdpi\\back.png"
     },
     {
-        "merged": "com.example.gameapp-merged_res-35:/drawable-xhdpi_warning.png.flat",
-        "source": "com.example.gameapp-pngs-30:/drawable-xhdpi/warning.png"
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\7.4\\com.example.gameapp-merged_res-35:\\layout_mes_likes.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\7.4\\com.example.gameapp-main-37:\\layout\\mes_likes.xml"
     },
     {
-        "merged": "com.example.gameapp-merged_res-35:/layout_description_du_jeu.xml.flat",
-        "source": "com.example.gameapp-main-37:/layout/description_du_jeu.xml"
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\7.4\\com.example.gameapp-merged_res-35:\\layout_recherche_fragment.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\7.4\\com.example.gameapp-main-37:\\layout\\recherche_fragment.xml"
     },
     {
-        "merged": "com.example.gameapp-merged_res-35:/drawable__1b647b61fc36fb6c8bbfb1f2169773c1a228f53.png.flat",
-        "source": "com.example.gameapp-main-37:/drawable/_1b647b61fc36fb6c8bbfb1f2169773c1a228f53.png"
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\7.4\\com.example.gameapp-merged_res-35:\\drawable_blue.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\7.4\\com.example.gameapp-main-37:\\drawable\\blue.xml"
     },
     {
-        "merged": "com.example.gameapp-merged_res-35:/mipmap-xxhdpi_ic_launcher.webp.flat",
-        "source": "com.example.gameapp-main-37:/mipmap-xxhdpi/ic_launcher.webp"
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\7.4\\com.example.gameapp-merged_res-35:\\layout_detail_du_jeu.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\7.4\\com.example.gameapp-main-37:\\layout\\detail_du_jeu.xml"
     },
     {
-        "merged": "com.example.gameapp-merged_res-35:/layout_likes_vide_fragment.xml.flat",
-        "source": "com.example.gameapp-main-37:/layout/likes_vide_fragment.xml"
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\7.4\\com.example.gameapp-merged_res-35:\\layout_mot_de_passe_oublie.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\7.4\\com.example.gameapp-main-37:\\layout\\mot_de_passe_oublie.xml"
     },
     {
-        "merged": "com.example.gameapp-merged_res-35:/drawable-hdpi_like_full.png.flat",
-        "source": "com.example.gameapp-pngs-30:/drawable-hdpi/like_full.png"
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\7.4\\com.example.gameapp-merged_res-35:\\drawable-xxxhdpi_whishlist_full.png.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\7.4\\com.example.gameapp-pngs-30:\\drawable-xxxhdpi\\whishlist_full.png"
     },
     {
-        "merged": "com.example.gameapp-merged_res-35:/xml_backup_rules.xml.flat",
-        "source": "com.example.gameapp-main-37:/xml/backup_rules.xml"
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\7.4\\com.example.gameapp-merged_res-35:\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\7.4\\com.example.gameapp-main-37:\\mipmap-xxhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "com.example.gameapp-merged_res-35:/drawable-mdpi_close.png.flat",
-        "source": "com.example.gameapp-pngs-30:/drawable-mdpi/close.png"
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\7.4\\com.example.gameapp-merged_res-35:\\drawable__b51c61576789a1f7048d1b315092e5bf120f092.png.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\7.4\\com.example.gameapp-main-37:\\drawable\\_b51c61576789a1f7048d1b315092e5bf120f092.png"
     },
     {
-        "merged": "com.example.gameapp-merged_res-35:/layout_wishlist_fragment.xml.flat",
-        "source": "com.example.gameapp-main-37:/layout/wishlist_fragment.xml"
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\7.4\\com.example.gameapp-merged_res-35:\\font_google_sans_bold_italic.ttf.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\7.4\\com.example.gameapp-main-37:\\font\\google_sans_bold_italic.ttf"
     },
     {
-        "merged": "com.example.gameapp-merged_res-35:/layout_review_game_list.xml.flat",
-        "source": "com.example.gameapp-main-37:/layout/review_game_list.xml"
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\7.4\\com.example.gameapp-merged_res-35:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\7.4\\com.example.gameapp-main-37:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
     },
     {
-        "merged": "com.example.gameapp-merged_res-35:/font_google_sans_medium.ttf.flat",
-        "source": "com.example.gameapp-main-37:/font/google_sans_medium.ttf"
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\7.4\\com.example.gameapp-merged_res-35:\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\7.4\\com.example.gameapp-main-37:\\mipmap-mdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "com.example.gameapp-merged_res-35:/drawable-xhdpi_like_full.png.flat",
-        "source": "com.example.gameapp-pngs-30:/drawable-xhdpi/like_full.png"
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\7.4\\com.example.gameapp-merged_res-35:\\layout_description_du_jeu.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\7.4\\com.example.gameapp-main-37:\\layout\\description_du_jeu.xml"
     },
     {
-        "merged": "com.example.gameapp-merged_res-35:/layout_wishlist.xml.flat",
-        "source": "com.example.gameapp-main-37:/layout/wishlist.xml"
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\7.4\\com.example.gameapp-merged_res-35:\\drawable_blue_right.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\7.4\\com.example.gameapp-main-37:\\drawable\\blue_right.xml"
     },
     {
-        "merged": "com.example.gameapp-merged_res-35:/mipmap-xhdpi_ic_launcher.webp.flat",
-        "source": "com.example.gameapp-main-37:/mipmap-xhdpi/ic_launcher.webp"
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\7.4\\com.example.gameapp-merged_res-35:\\drawable-ldpi_empty_whishlist.png.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\7.4\\com.example.gameapp-pngs-30:\\drawable-ldpi\\empty_whishlist.png"
     },
     {
-        "merged": "com.example.gameapp-merged_res-35:/drawable-ldpi_empty_whishlist.png.flat",
-        "source": "com.example.gameapp-pngs-30:/drawable-ldpi/empty_whishlist.png"
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\7.4\\com.example.gameapp-merged_res-35:\\drawable-xxhdpi_whishlist.png.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\7.4\\com.example.gameapp-pngs-30:\\drawable-xxhdpi\\whishlist.png"
     },
     {
-        "merged": "com.example.gameapp-merged_res-35:/mipmap-xxxhdpi_ic_launcher.webp.flat",
-        "source": "com.example.gameapp-main-37:/mipmap-xxxhdpi/ic_launcher.webp"
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\7.4\\com.example.gameapp-merged_res-35:\\drawable-anydpi-v24_whishlist_full.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\7.4\\com.example.gameapp-pngs-30:\\drawable-anydpi-v24\\whishlist_full.xml"
     },
     {
-        "merged": "com.example.gameapp-merged_res-35:/layout_mot_de_passe_oublie.xml.flat",
-        "source": "com.example.gameapp-main-37:/layout/mot_de_passe_oublie.xml"
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\7.4\\com.example.gameapp-merged_res-35:\\drawable-xxxhdpi_whishlist.png.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\7.4\\com.example.gameapp-pngs-30:\\drawable-xxxhdpi\\whishlist.png"
     },
     {
-        "merged": "com.example.gameapp-merged_res-35:/drawable_corners_transparent.xml.flat",
-        "source": "com.example.gameapp-main-37:/drawable/corners_transparent.xml"
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\7.4\\com.example.gameapp-merged_res-35:\\drawable-hdpi_whishlist.png.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\7.4\\com.example.gameapp-pngs-30:\\drawable-hdpi\\whishlist.png"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\7.4\\com.example.gameapp-merged_res-35:\\drawable__1abf45f2aea138fb723b5848537263cee2ddaf0.png.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\7.4\\com.example.gameapp-main-37:\\drawable\\_1abf45f2aea138fb723b5848537263cee2ddaf0.png"
     },
     {
         "merged": "com.example.gameapp-merged_res-35:/layout_review_game_fragment.xml.flat",
         "source": "com.example.gameapp-main-37:/layout/review_game_fragment.xml"
     },
     {
-        "merged": "com.example.gameapp-merged_res-35:/drawable_peakpx.jpg.flat",
-        "source": "com.example.gameapp-main-37:/drawable/peakpx.jpg"
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\7.4\\com.example.gameapp-merged_res-35:\\layout_inscription.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\7.4\\com.example.gameapp-main-37:\\layout\\inscription.xml"
     },
     {
-        "merged": "com.example.gameapp-merged_res-35:/drawable-hdpi_empty_whishlist.png.flat",
-        "source": "com.example.gameapp-pngs-30:/drawable-hdpi/empty_whishlist.png"
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\7.4\\com.example.gameapp-merged_res-35:\\drawable-hdpi_whishlist_full.png.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\7.4\\com.example.gameapp-pngs-30:\\drawable-hdpi\\whishlist_full.png"
     },
     {
-        "merged": "com.example.gameapp-merged_res-35:/drawable-xxxhdpi_whishlist_full.png.flat",
-        "source": "com.example.gameapp-pngs-30:/drawable-xxxhdpi/whishlist_full.png"
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\7.4\\com.example.gameapp-merged_res-35:\\layout_review_game_list.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\7.4\\com.example.gameapp-main-37:\\layout\\review_game_list.xml"
     },
     {
-        "merged": "com.example.gameapp-merged_res-35:/drawable-mdpi_warning.png.flat",
-        "source": "com.example.gameapp-pngs-30:/drawable-mdpi/warning.png"
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\7.4\\com.example.gameapp-merged_res-35:\\drawable-hdpi_like_full.png.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\7.4\\com.example.gameapp-pngs-30:\\drawable-hdpi\\like_full.png"
     },
     {
-        "merged": "com.example.gameapp-merged_res-35:/drawable-xhdpi_empty_whishlist.png.flat",
-        "source": "com.example.gameapp-pngs-30:/drawable-xhdpi/empty_whishlist.png"
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\7.4\\com.example.gameapp-merged_res-35:\\font_google_sans_medium.ttf.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\7.4\\com.example.gameapp-main-37:\\font\\google_sans_medium.ttf"
     },
     {
-        "merged": "com.example.gameapp-merged_res-35:/drawable-anydpi-v24_back.xml.flat",
-        "source": "com.example.gameapp-pngs-30:/drawable-anydpi-v24/back.xml"
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\7.4\\com.example.gameapp-merged_res-35:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\7.4\\com.example.gameapp-main-37:\\drawable\\ic_launcher_background.xml"
     },
     {
-        "merged": "com.example.gameapp-merged_res-35:/drawable-anydpi-v24_empty_whishlist.xml.flat",
-        "source": "com.example.gameapp-pngs-30:/drawable-anydpi-v24/empty_whishlist.xml"
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\7.4\\com.example.gameapp-merged_res-35:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\7.4\\com.example.gameapp-main-37:\\mipmap-xxxhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "com.example.gameapp-merged_res-35:/drawable_fb1cc60ad136c7ecb06d28271f5ca48b80475e43.png.flat",
-        "source": "com.example.gameapp-main-37:/drawable/fb1cc60ad136c7ecb06d28271f5ca48b80475e43.png"
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\7.4\\com.example.gameapp-merged_res-35:\\drawable-ldpi_like.png.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\7.4\\com.example.gameapp-pngs-30:\\drawable-ldpi\\like.png"
     },
     {
-        "merged": "com.example.gameapp-merged_res-35:/layout_detail_du_jeu.xml.flat",
-        "source": "com.example.gameapp-main-37:/layout/detail_du_jeu.xml"
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\7.4\\com.example.gameapp-merged_res-35:\\drawable_corners_red.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\7.4\\com.example.gameapp-main-37:\\drawable\\corners_red.xml"
     }
 ]
