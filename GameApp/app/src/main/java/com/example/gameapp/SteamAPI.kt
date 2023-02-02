@@ -1,7 +1,7 @@
 package com.example.gameapp
 
 import android.util.Log
-import com.google.gson.annotations.Expose
+import com.google.gson.*
 import com.google.gson.annotations.SerializedName
 import com.jakewharton.retrofit2.adapter.kotlin.coroutines.CoroutineCallAdapterFactory
 import kotlinx.coroutines.Deferred
@@ -10,6 +10,7 @@ import retrofit2.converter.gson.GsonConverterFactory
 import retrofit2.http.GET
 import retrofit2.http.Path
 import retrofit2.http.Query
+import java.lang.reflect.Type
 
 
 data class GameList(
@@ -30,12 +31,11 @@ data class Rank (
     @SerializedName("peak_in_game")
     val peakInGame: Int)
 
-data class Id(
-    @SerializedName("570")
-    val _570: GameDetail
+data class GameDetail(
+    val gameDetail: Detail
 )
 
-data class GameDetail (
+data class Detail (
     val success: Boolean,
     val data: Data
 )
@@ -84,6 +84,7 @@ data class Data (
 
     val developers: List<String>,
     val publishers: List<String>,
+    val price_overview: PriceOverview,
     val packages: List<Long>,
 
     @SerializedName("package_groups")
@@ -111,6 +112,15 @@ data class Data (
 
     @SerializedName("content_descriptors")
     val contentDescriptors: ContentDescriptors
+)
+
+data class PriceOverview (
+    val currency: String,
+    val initial: Long,
+    val myfinal: Long,
+    val discount_percent: Long,
+    val initial_formatted: String,
+    val final_formatted: String
 )
 
 data class Achievements (
@@ -403,11 +413,13 @@ interface SteamAPI {
     @GET("ISteamChartsService/GetMostPlayedGames/v1/?key=515688504A840291F3A0F7F4F7223807")
     fun getMostPlayedGamesAsync(): Deferred<GameList>
     @GET("api/appdetails")
-    fun getDetailsGameAsync(@Query("appids") gameId: String): Deferred<Id>
+    fun getDetailsGameAsync(@Query("appids") gameId: String): Deferred<GameDetail>
     @GET("appreviews/{apiId}?json=1")
     fun getReviewGameAsync(@Path("apiId") gameId: String): Deferred<GameReview>
     @GET("ISteamUser/GetPlayerSummaries/v0002/?key=515688504A840291F3A0F7F4F7223807")
     fun getUserInfoAsync(@Query("steamids") userId: String): Deferred<ResponseUser>
+    
+    
 }
 
 object NetworkManager1{
@@ -440,12 +452,16 @@ object NetworkManager1{
 object NetworkManager2{
     private val api = Retrofit.Builder()
         .baseUrl("https://store.steampowered.com/")
-        .addConverterFactory(GsonConverterFactory.create())
+        .addConverterFactory(GsonConverterFactory.create(
+            GsonBuilder()
+                .registerTypeAdapter(GameDetail::class.java, IdResponseDeserializer())
+                .create()
+        ))
         .addCallAdapterFactory(CoroutineCallAdapterFactory())
         .build()
         .create(SteamAPI::class.java)
 
-    suspend fun getDetailsGame(gameId: String): Id {
+    suspend fun getDetailsGame(gameId: String): GameDetail {
         try {
             api.getDetailsGameAsync(gameId).await()
         }catch (e: Exception){
@@ -461,5 +477,25 @@ object NetworkManager2{
             Log.i("Err ", e.toString())
         }
         return api.getReviewGameAsync(gameId).await()
+    }
+}
+
+class IdResponseDeserializer: JsonDeserializer<GameDetail>{
+    companion object{
+        val deserializer: Gson = GsonBuilder().create()
+    }
+
+    override fun deserialize(
+        json: JsonElement?,
+        typeOfT: Type?,
+        context: JsonDeserializationContext?
+    ): GameDetail {
+        val jsonObject = json?.asJsonObject
+
+        val key = jsonObject?.keySet()?.first{
+            it.toIntOrNull() != null
+        }
+
+        return GameDetail(deserializer.fromJson(jsonObject?.get(key), Detail::class.java))
     }
 }
