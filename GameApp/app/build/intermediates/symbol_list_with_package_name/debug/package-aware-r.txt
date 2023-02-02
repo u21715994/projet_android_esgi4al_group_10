@@ -2792,10 +2792,12 @@ id fixed
 id flip
 id floating
 id forever
+id fragment_container
 id fragment_container_view_tag
 id frost
 id ghost_view
 id ghost_view_holder
+id glide_custom_view_target_tag
 id gone
 id graph
 id graph_wrap
@@ -2833,10 +2835,6 @@ id info
 id invisible
 id inward
 id italic
-id item1
-id item2
-id item3
-id item4
 id item_touch_helper_previous_elevation
 id jumpToEnd
 id jumpToStart
@@ -2882,6 +2880,7 @@ id month_navigation_fragment_toggle
 id month_navigation_next
 id month_navigation_previous
 id month_title
+id more_information
 id motion_base
 id mtrl_anchor_parent
 id mtrl_calendar_day_selector_frame
@@ -2952,7 +2951,7 @@ id ratio
 id rectangles
 id recycler_view
 id recycler_view_list_game
-id recycler_view_list_games_like
+id recycler_view_list_games
 id recycler_view_recherche
 id recycler_view_wishlist
 id reverseSawtooth
@@ -2972,6 +2971,7 @@ id scrollIndicatorDown
 id scrollIndicatorUp
 id scrollView
 id scrollable
+id search
 id search_badge
 id search_bar
 id search_button
@@ -3091,6 +3091,7 @@ id vertical_only
 id view_offset_helper
 id view_transition
 id view_tree_lifecycle_owner
+id view_tree_on_back_pressed_dispatcher_owner
 id view_tree_saved_state_registry_owner
 id view_tree_view_model_store_owner
 id visible
@@ -3192,11 +3193,15 @@ layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
 layout accueil
+layout accueil_fragment
 layout activity_main
+layout activity_main_fragment
 layout avis_du_jeu
 layout browser_actions_context_menu_page
 layout browser_actions_context_menu_row
 layout custom_dialog
+layout description_du_jeu
+layout description_game_fragment
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog
 layout design_layout_snackbar
@@ -3215,7 +3220,10 @@ layout design_text_input_start_icon
 layout detail_du_jeu
 layout game_list
 layout inscription
+layout inscription_fragment
+layout likes_vide_fragment
 layout likes_vides
+layout list_game_fragment
 layout m3_alert_dialog
 layout m3_alert_dialog_actions
 layout m3_alert_dialog_title
@@ -3233,6 +3241,7 @@ layout material_time_input
 layout material_timepicker
 layout material_timepicker_dialog
 layout material_timepicker_textinput_display
+layout mdp_oublie_fragment
 layout mes_likes
 layout mot_de_passe_oublie
 layout mtrl_alert_dialog
@@ -3271,6 +3280,8 @@ layout notification_template_icon_group
 layout notification_template_part_chronometer
 layout notification_template_part_time
 layout recherche
+layout recherche_fragment
+layout review_game_fragment
 layout review_game_list
 layout select_dialog_item_material
 layout select_dialog_multichoice_material
@@ -3292,9 +3303,9 @@ layout text_view_with_line_height_from_style
 layout text_view_with_theme_line_height
 layout text_view_without_line_height
 layout wishlist
+layout wishlist_fragment
+layout wishlist_vide_fragment
 layout wishlist_vides
-menu example_menu
-menu example_menu2
 mipmap ic_launcher
 mipmap ic_launcher_round
 plurals mtrl_badge_content_description

@@ -18,6 +18,7 @@ import kotlinx.coroutines.withContext
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import android.widget.TextView
+import android.widget.Toast
 import androidx.fragment.app.Fragment
 
 class MainActivity : AppCompatActivity() {
@@ -50,11 +51,14 @@ class MainActivity : AppCompatActivity() {
                 val auth = UserAuth()
                 if(auth.signInUser(email, password, requireContext())){
                     //Action à exécuter si connexion réussie
-
+                    parentFragmentManager.beginTransaction()
+                        .replace(R.id.fragment_container, AccueilActivity.AccueilFragment())
+                        .addToBackStack("accueil")
+                        .commitAllowingStateLoss()
                 }
                 else{
                     //Action à exécuter si connexion echouée
-
+                    Toast.makeText(requireContext(), "La connexion à échouée. Veuillez vérifier votre email et mot de passe", Toast.LENGTH_SHORT).show()
                 }
             }
 
