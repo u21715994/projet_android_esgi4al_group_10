@@ -4,12 +4,12 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/peakpx">
+    android:background="#1B2024">
 
     <androidx.fragment.app.FragmentContainerView
         android:id="@+id/fragment_container"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:layout="@layout/mdp_oublie_fragment"/>
+        tools:layout="@layout/description_game_fragment"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
