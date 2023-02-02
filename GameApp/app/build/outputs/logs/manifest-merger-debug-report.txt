@@ -110,12 +110,12 @@ MERGED from [androidx.startup:startup-runtime:1.0.0] C:\Users\Admin\.gradle\cach
 		ADDED from C:\Users\Admin\Documents\projet_android_esgi4al_group_10\GameApp\app\src\main\AndroidManifest.xml:15:9-45
 	android:dataExtractionRules
 		ADDED from C:\Users\Admin\Documents\projet_android_esgi4al_group_10\GameApp\app\src\main\AndroidManifest.xml:9:9-65
-activity#com.example.gameapp.activity.DescriptionGameActivity
+activity#com.example.gameapp.activity.RechercheActivity
 ADDED from C:\Users\Admin\Documents\projet_android_esgi4al_group_10\GameApp\app\src\main\AndroidManifest.xml:17:9-29:20
 	android:exported
 		ADDED from C:\Users\Admin\Documents\projet_android_esgi4al_group_10\GameApp\app\src\main\AndroidManifest.xml:19:13-36
 	android:name
-		ADDED from C:\Users\Admin\Documents\projet_android_esgi4al_group_10\GameApp\app\src\main\AndroidManifest.xml:18:13-61
+		ADDED from C:\Users\Admin\Documents\projet_android_esgi4al_group_10\GameApp\app\src\main\AndroidManifest.xml:18:13-55
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
 ADDED from C:\Users\Admin\Documents\projet_android_esgi4al_group_10\GameApp\app\src\main\AndroidManifest.xml:20:13-24:29
 action#android.intent.action.MAIN
@@ -138,24 +138,24 @@ ADDED from C:\Users\Admin\Documents\projet_android_esgi4al_group_10\GameApp\app\
 		ADDED from C:\Users\Admin\Documents\projet_android_esgi4al_group_10\GameApp\app\src\main\AndroidManifest.xml:32:13-36
 	android:name
 		ADDED from C:\Users\Admin\Documents\projet_android_esgi4al_group_10\GameApp\app\src\main\AndroidManifest.xml:31:13-54
+activity#com.example.gameapp.activity.DescriptionGameActivity
+ADDED from C:\Users\Admin\Documents\projet_android_esgi4al_group_10\GameApp\app\src\main\AndroidManifest.xml:33:9-35:48
+	android:exported
+		ADDED from C:\Users\Admin\Documents\projet_android_esgi4al_group_10\GameApp\app\src\main\AndroidManifest.xml:35:13-36
+	android:name
+		ADDED from C:\Users\Admin\Documents\projet_android_esgi4al_group_10\GameApp\app\src\main\AndroidManifest.xml:34:13-61
 activity#com.example.gameapp.activity.WishlistActivity
-ADDED from C:\Users\Admin\Documents\projet_android_esgi4al_group_10\GameApp\app\src\main\AndroidManifest.xml:34:9-36:48
+ADDED from C:\Users\Admin\Documents\projet_android_esgi4al_group_10\GameApp\app\src\main\AndroidManifest.xml:36:9-38:48
 	android:exported
-		ADDED from C:\Users\Admin\Documents\projet_android_esgi4al_group_10\GameApp\app\src\main\AndroidManifest.xml:36:13-36
+		ADDED from C:\Users\Admin\Documents\projet_android_esgi4al_group_10\GameApp\app\src\main\AndroidManifest.xml:38:13-36
 	android:name
-		ADDED from C:\Users\Admin\Documents\projet_android_esgi4al_group_10\GameApp\app\src\main\AndroidManifest.xml:35:13-54
+		ADDED from C:\Users\Admin\Documents\projet_android_esgi4al_group_10\GameApp\app\src\main\AndroidManifest.xml:37:13-54
 activity#com.example.gameapp.activity.WishlistVideActivity
-ADDED from C:\Users\Admin\Documents\projet_android_esgi4al_group_10\GameApp\app\src\main\AndroidManifest.xml:37:9-39:48
+ADDED from C:\Users\Admin\Documents\projet_android_esgi4al_group_10\GameApp\app\src\main\AndroidManifest.xml:39:9-41:48
 	android:exported
-		ADDED from C:\Users\Admin\Documents\projet_android_esgi4al_group_10\GameApp\app\src\main\AndroidManifest.xml:39:13-36
+		ADDED from C:\Users\Admin\Documents\projet_android_esgi4al_group_10\GameApp\app\src\main\AndroidManifest.xml:41:13-36
 	android:name
-		ADDED from C:\Users\Admin\Documents\projet_android_esgi4al_group_10\GameApp\app\src\main\AndroidManifest.xml:38:13-58
-activity#com.example.gameapp.activity.RechercheActivity
-ADDED from C:\Users\Admin\Documents\projet_android_esgi4al_group_10\GameApp\app\src\main\AndroidManifest.xml:40:9-42:48
-	android:exported
-		ADDED from C:\Users\Admin\Documents\projet_android_esgi4al_group_10\GameApp\app\src\main\AndroidManifest.xml:42:13-36
-	android:name
-		ADDED from C:\Users\Admin\Documents\projet_android_esgi4al_group_10\GameApp\app\src\main\AndroidManifest.xml:41:13-55
+		ADDED from C:\Users\Admin\Documents\projet_android_esgi4al_group_10\GameApp\app\src\main\AndroidManifest.xml:40:13-58
 activity#com.example.gameapp.activity.InscriptionActivity
 ADDED from C:\Users\Admin\Documents\projet_android_esgi4al_group_10\GameApp\app\src\main\AndroidManifest.xml:43:9-45:48
 	android:exported

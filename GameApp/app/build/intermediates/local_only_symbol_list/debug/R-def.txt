@@ -71,6 +71,7 @@ id recycler_view_list_game
 id recycler_view_list_games
 id recycler_view_recherche
 id recycler_view_wishlist
+id search
 id textView
 id textView2
 id textView3

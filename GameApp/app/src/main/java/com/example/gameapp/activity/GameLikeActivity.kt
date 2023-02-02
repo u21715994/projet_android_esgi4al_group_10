@@ -57,7 +57,7 @@ class GameLikeActivity : AppCompatActivity() {
 
             val closeList = view.findViewById<ImageView>(R.id.imageView)
             closeList.setOnClickListener(View.OnClickListener {
-                if (parentFragmentManager.getBackStackEntryCount() > 0) {
+                if (parentFragmentManager.backStackEntryCount > 0) {
                     parentFragmentManager.popBackStack();
                 } else {
                     activity?.onBackPressed();

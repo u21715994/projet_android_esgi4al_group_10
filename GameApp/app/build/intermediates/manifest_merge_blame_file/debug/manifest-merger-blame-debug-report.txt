@@ -38,8 +38,8 @@
 24-->C:\Users\Admin\Documents\projet_android_esgi4al_group_10\GameApp\app\src\main\AndroidManifest.xml:15:9-45
 25        <activity
 25-->C:\Users\Admin\Documents\projet_android_esgi4al_group_10\GameApp\app\src\main\AndroidManifest.xml:17:9-29:20
-26            android:name="com.example.gameapp.activity.DescriptionGameActivity"
-26-->C:\Users\Admin\Documents\projet_android_esgi4al_group_10\GameApp\app\src\main\AndroidManifest.xml:18:13-61
+26            android:name="com.example.gameapp.activity.RechercheActivity"
+26-->C:\Users\Admin\Documents\projet_android_esgi4al_group_10\GameApp\app\src\main\AndroidManifest.xml:18:13-55
 27            android:exported="true" >
 27-->C:\Users\Admin\Documents\projet_android_esgi4al_group_10\GameApp\app\src\main\AndroidManifest.xml:19:13-36
 28            <intent-filter>
@@ -67,23 +67,23 @@
 40            android:exported="true" />
 40-->C:\Users\Admin\Documents\projet_android_esgi4al_group_10\GameApp\app\src\main\AndroidManifest.xml:32:13-36
 41        <activity
-41-->C:\Users\Admin\Documents\projet_android_esgi4al_group_10\GameApp\app\src\main\AndroidManifest.xml:34:9-36:48
-42            android:name="com.example.gameapp.activity.WishlistActivity"
-42-->C:\Users\Admin\Documents\projet_android_esgi4al_group_10\GameApp\app\src\main\AndroidManifest.xml:35:13-54
+41-->C:\Users\Admin\Documents\projet_android_esgi4al_group_10\GameApp\app\src\main\AndroidManifest.xml:33:9-35:48
+42            android:name="com.example.gameapp.activity.DescriptionGameActivity"
+42-->C:\Users\Admin\Documents\projet_android_esgi4al_group_10\GameApp\app\src\main\AndroidManifest.xml:34:13-61
 43            android:exported="true" />
-43-->C:\Users\Admin\Documents\projet_android_esgi4al_group_10\GameApp\app\src\main\AndroidManifest.xml:36:13-36
+43-->C:\Users\Admin\Documents\projet_android_esgi4al_group_10\GameApp\app\src\main\AndroidManifest.xml:35:13-36
 44        <activity
-44-->C:\Users\Admin\Documents\projet_android_esgi4al_group_10\GameApp\app\src\main\AndroidManifest.xml:37:9-39:48
-45            android:name="com.example.gameapp.activity.WishlistVideActivity"
-45-->C:\Users\Admin\Documents\projet_android_esgi4al_group_10\GameApp\app\src\main\AndroidManifest.xml:38:13-58
+44-->C:\Users\Admin\Documents\projet_android_esgi4al_group_10\GameApp\app\src\main\AndroidManifest.xml:36:9-38:48
+45            android:name="com.example.gameapp.activity.WishlistActivity"
+45-->C:\Users\Admin\Documents\projet_android_esgi4al_group_10\GameApp\app\src\main\AndroidManifest.xml:37:13-54
 46            android:exported="true" />
-46-->C:\Users\Admin\Documents\projet_android_esgi4al_group_10\GameApp\app\src\main\AndroidManifest.xml:39:13-36
+46-->C:\Users\Admin\Documents\projet_android_esgi4al_group_10\GameApp\app\src\main\AndroidManifest.xml:38:13-36
 47        <activity
-47-->C:\Users\Admin\Documents\projet_android_esgi4al_group_10\GameApp\app\src\main\AndroidManifest.xml:40:9-42:48
-48            android:name="com.example.gameapp.activity.RechercheActivity"
-48-->C:\Users\Admin\Documents\projet_android_esgi4al_group_10\GameApp\app\src\main\AndroidManifest.xml:41:13-55
+47-->C:\Users\Admin\Documents\projet_android_esgi4al_group_10\GameApp\app\src\main\AndroidManifest.xml:39:9-41:48
+48            android:name="com.example.gameapp.activity.WishlistVideActivity"
+48-->C:\Users\Admin\Documents\projet_android_esgi4al_group_10\GameApp\app\src\main\AndroidManifest.xml:40:13-58
 49            android:exported="true" />
-49-->C:\Users\Admin\Documents\projet_android_esgi4al_group_10\GameApp\app\src\main\AndroidManifest.xml:42:13-36
+49-->C:\Users\Admin\Documents\projet_android_esgi4al_group_10\GameApp\app\src\main\AndroidManifest.xml:41:13-36
 50        <activity
 50-->C:\Users\Admin\Documents\projet_android_esgi4al_group_10\GameApp\app\src\main\AndroidManifest.xml:43:9-45:48
 51            android:name="com.example.gameapp.activity.InscriptionActivity"

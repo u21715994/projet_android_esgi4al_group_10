@@ -8,6 +8,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.EditText
+import android.widget.ImageView
 import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.LinearLayoutManager
@@ -54,21 +55,9 @@ class RechercheActivity : AppCompatActivity() {
                     }
 
                     val editText: EditText = view.findViewById(R.id.editText)
-                    editText.addTextChangedListener(object : TextWatcher {
-                        override fun beforeTextChanged(
-                            charSequence: CharSequence,
-                            i: Int,
-                            i1: Int,
-                            i2: Int
-                        ) {
-                        }
-
-                        override fun onTextChanged(charSequence: CharSequence, i: Int, i1: Int, i2: Int) {
-                            val input = charSequence.toString()
-                            Log.d("Input", input)
-                        }
-
-                        override fun afterTextChanged(editable: Editable) {}
+                    val search = view.findViewById<ImageView>(R.id.search)
+                    search.setOnClickListener(View.OnClickListener {
+                        Log.i("search", editText.text.toString())
                     })
 
                     val adapter = GameListAdapter(response.response.ranks)

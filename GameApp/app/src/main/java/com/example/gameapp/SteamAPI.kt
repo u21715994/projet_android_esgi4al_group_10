@@ -418,6 +418,8 @@ interface SteamAPI {
     fun getReviewGameAsync(@Path("apiId") gameId: String): Deferred<GameReview>
     @GET("ISteamUser/GetPlayerSummaries/v0002/?key=515688504A840291F3A0F7F4F7223807")
     fun getUserInfoAsync(@Query("steamids") userId: String): Deferred<ResponseUser>
+
+
 }
 
 object NetworkManager1{

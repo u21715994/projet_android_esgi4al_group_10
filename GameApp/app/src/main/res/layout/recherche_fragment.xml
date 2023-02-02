@@ -65,13 +65,12 @@
 
             <EditText
                 android:id="@+id/editText"
-                android:layout_width="wrap_content"
+                android:layout_width="375dp"
                 android:layout_height="wrap_content"
                 android:background="@drawable/corners"
-                android:drawableEnd="@drawable/ic_baseline_search_24"
                 android:fontFamily="@font/google_sans"
                 android:hint="@string/rechercher_un_jeu"
-                android:text="@string/stray"
+                android:text=""
                 android:importantForAutofill="no"
                 android:inputType="text"
                 android:minWidth="385dp"
@@ -80,10 +79,21 @@
                 android:textColorHint="#D3D3D3"
                 android:textSize="14sp"
                 android:layout_marginTop="10dp"
-                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginLeft="15dp"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintRight_toLeftOf="@+id/search"
                 tools:ignore="TouchTargetSizeCheck" />
+
+            <ImageView
+                android:id="@+id/search"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_baseline_search_24"
+                app:layout_constraintRight_toRightOf="@+id/editText"
+                app:layout_constraintTop_toTopOf="@+id/editText"
+                android:background="@drawable/corners"
+                app:layout_constraintBottom_toBottomOf="@+id/editText"/>
 
             <TextView
                 android:id="@+id/textView999"
