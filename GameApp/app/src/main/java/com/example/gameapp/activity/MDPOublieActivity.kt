@@ -43,9 +43,9 @@ class MDPOublieActivity : AppCompatActivity() {
         override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
             super.onViewCreated(view, savedInstanceState)
 
-            val button = findViewById<Button>(R.id.button)
+            val button = view.findViewById<Button>(R.id.button)
             button.setOnClickListener {
-                val email = findViewById<EditText>(R.id.editText).text.toString()
+                val email = view.findViewById<EditText>(R.id.editText).text.toString()
                 val auth = UserAuth()
                 auth.resetPassword(email)
             }

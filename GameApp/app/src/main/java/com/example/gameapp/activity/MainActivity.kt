@@ -48,7 +48,7 @@ class MainActivity : AppCompatActivity() {
                 val email = view.findViewById<EditText>(R.id.editText).text.toString()
                 val password = view.findViewById<EditText>(R.id.editText2).text.toString()
                 val auth = UserAuth()
-                if(auth.signInUser(email, password, this)){
+                if(auth.signInUser(email, password, requireContext())){
                     //Action à exécuter si connexion réussie
 
                 }

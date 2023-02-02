@@ -43,14 +43,14 @@ class InscriptionActivity : AppCompatActivity() {
         override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
             super.onViewCreated(view, savedInstanceState)
 
-            val button = findViewById<Button>(R.id.button)
+            val button = view.findViewById<Button>(R.id.button)
             button.setOnClickListener {
-                val email = findViewById<EditText>(R.id.editText).text.toString()
-                val password = findViewById<EditText>(R.id.editText2).text.toString()
-                val username = findViewById<EditText>(R.id.editText3).text.toString()
+                val email = view.findViewById<EditText>(R.id.editText).text.toString()
+                val password = view.findViewById<EditText>(R.id.editText2).text.toString()
+                val username = view.findViewById<EditText>(R.id.editText3).text.toString()
                 val userData = mapOf("username" to username)
                 val auth = UserAuth()
-                if(auth.createU(email, password, userData,this)){
+                if(auth.createU(email, password, userData, requireContext())){
                     //action à réaliser quand l'utilisateur est inscrit
 
                 }
