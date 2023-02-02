@@ -82,6 +82,23 @@ class AccueilActivity : AppCompatActivity() {
                             .addToBackStack("more_information")
                             .commitAllowingStateLoss()
                     })
+
+                    val likeGameList = view.findViewById<ImageView>(R.id.imageView)
+                    likeGameList.setOnClickListener(View.OnClickListener {
+                        parentFragmentManager.beginTransaction()
+                            .replace(R.id.fragment_container, GameLikeActivity.GameListFragment())
+                            .addToBackStack("like_game")
+                            .commitAllowingStateLoss()
+                    })
+
+                    val wishlistGameList = view.findViewById<ImageView>(R.id.imageView2)
+                    wishlistGameList.setOnClickListener(View.OnClickListener {
+                        parentFragmentManager.beginTransaction()
+                            .replace(R.id.fragment_container, WishlistActivity.WishlistFragment())
+                            .addToBackStack("wishlist")
+                            .commitAllowingStateLoss()
+                    })
+
                 } catch (e: Exception) {
 
                 }

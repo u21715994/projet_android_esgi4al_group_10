@@ -17,6 +17,7 @@ import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
 import android.view.LayoutInflater
 import android.view.ViewGroup
+import android.widget.Toast
 import androidx.fragment.app.Fragment
 
 class InscriptionActivity : AppCompatActivity() {
@@ -52,12 +53,14 @@ class InscriptionActivity : AppCompatActivity() {
                 val auth = UserAuth()
                 if(auth.createU(email, password, userData, requireContext())){
                     //action à réaliser quand l'utilisateur est inscrit
-
+                    Toast.makeText(requireContext(), "Vous avez déjà un compte", Toast.LENGTH_SHORT).show()
                 }
                 else{
                     //Action à réaliser quand l'utilisateur n'est pas inscrit
-
-
+                    parentFragmentManager.beginTransaction()
+                        .replace(R.id.fragment_container, AccueilActivity.AccueilFragment())
+                        .addToBackStack("accueil")
+                        .commitAllowingStateLoss()
                 }
             }
         }

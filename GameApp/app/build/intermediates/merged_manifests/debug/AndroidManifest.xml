@@ -27,7 +27,7 @@
         android:testOnly="true"
         android:theme="@style/Theme.GameApp" >
         <activity
-            android:name="com.example.gameapp.activity.MainActivity"
+            android:name="com.example.gameapp.activity.AccueilActivity"
             android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -65,9 +65,6 @@
             android:exported="true" />
         <activity
             android:name="com.example.gameapp.activity.LikeVideActivity"
-            android:exported="true" />
-        <activity
-            android:name="com.example.gameapp.activity.AccueilActivity"
             android:exported="true" />
 
         <service

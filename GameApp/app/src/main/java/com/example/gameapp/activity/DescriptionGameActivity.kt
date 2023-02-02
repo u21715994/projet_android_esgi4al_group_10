@@ -93,6 +93,17 @@ class DescriptionGameActivity : AppCompatActivity() {
                     .addToBackStack("review_game")
                     .commitAllowingStateLoss()
             })
+
+            val likeGameList = view.findViewById<ImageView>(R.id.imageView2)
+            likeGameList.setOnClickListener(View.OnClickListener {
+                // liké le jeu
+            })
+
+
+            val wishlistGameList = view.findViewById<ImageView>(R.id.imageView3)
+            wishlistGameList.setOnClickListener(View.OnClickListener {
+                // ajouté wishlist
+            })
         }
     }
 }

@@ -17,6 +17,7 @@ import com.bumptech.glide.Glide
 import com.example.gameapp.NetworkManager1
 import com.example.gameapp.NetworkManager2
 import com.example.gameapp.R
+import com.example.gameapp.Rank
 import com.example.gameapp.adapter.GameListAdapter
 import com.example.gameapp.adapter.ReviewGameAdapter
 import kotlinx.coroutines.Dispatchers
@@ -99,6 +100,18 @@ class ReviewGameActivity : AppCompatActivity() {
                     .addToBackStack("description_game")
                     .commitAllowingStateLoss()
             })
+
+            val likeGameList = view.findViewById<ImageView>(R.id.imageView2)
+            likeGameList.setOnClickListener(View.OnClickListener {
+                // liké le jeu
+            })
+
+
+            val wishlistGameList = view.findViewById<ImageView>(R.id.imageView3)
+            wishlistGameList.setOnClickListener(View.OnClickListener {
+                // ajouté wishlist
+            })
+
         }
     }
 }

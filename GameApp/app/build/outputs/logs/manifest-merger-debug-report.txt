@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\Admin\Documents\projet_android_esgi4al_group_10\GameApp\app\src\main\AndroidManifest.xml:2:1-62:12
-INJECTED from C:\Users\Admin\Documents\projet_android_esgi4al_group_10\GameApp\app\src\main\AndroidManifest.xml:2:1-62:12
-INJECTED from C:\Users\Admin\Documents\projet_android_esgi4al_group_10\GameApp\app\src\main\AndroidManifest.xml:2:1-62:12
-INJECTED from C:\Users\Admin\Documents\projet_android_esgi4al_group_10\GameApp\app\src\main\AndroidManifest.xml:2:1-62:12
+ADDED from C:\Users\Admin\Documents\projet_android_esgi4al_group_10\GameApp\app\src\main\AndroidManifest.xml:2:1-60:12
+INJECTED from C:\Users\Admin\Documents\projet_android_esgi4al_group_10\GameApp\app\src\main\AndroidManifest.xml:2:1-60:12
+INJECTED from C:\Users\Admin\Documents\projet_android_esgi4al_group_10\GameApp\app\src\main\AndroidManifest.xml:2:1-60:12
+INJECTED from C:\Users\Admin\Documents\projet_android_esgi4al_group_10\GameApp\app\src\main\AndroidManifest.xml:2:1-60:12
 MERGED from [com.google.firebase:firebase-database-ktx:20.1.0] C:\Users\Admin\.gradle\caches\transforms-3\dcb25f89a46fc0d31d0b914f2570928d\transformed\firebase-database-ktx-20.1.0\AndroidManifest.xml:2:1-20:12
 MERGED from [com.google.firebase:firebase-analytics-ktx:21.2.0] C:\Users\Admin\.gradle\caches\transforms-3\3a2af1d1e222806e3d17416d0b315f04\transformed\firebase-analytics-ktx-21.2.0\AndroidManifest.xml:2:1-17:12
 MERGED from [com.google.firebase:firebase-auth-ktx:21.1.0] C:\Users\Admin\.gradle\caches\transforms-3\5c65d8d980033928d251e53e763f5d68\transformed\firebase-auth-ktx-21.1.0\AndroidManifest.xml:2:1-17:12
@@ -76,22 +76,22 @@ MERGED from [com.google.firebase:firebase-components:17.1.0] C:\Users\Admin\.gra
 MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Admin\.gradle\caches\transforms-3\cbf87a7a53f280b2dcff84dec94e29c6\transformed\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.print:print:1.0.0] C:\Users\Admin\.gradle\caches\transforms-3\4627e29d503a10fb50638c6d9506e1b1\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\Admin\.gradle\caches\transforms-3\72da0692dcee295e57ba8291aa0985d9\transformed\annotation-experimental-1.1.0\AndroidManifest.xml:17:1-24:12
-INJECTED from C:\Users\Admin\Documents\projet_android_esgi4al_group_10\GameApp\app\src\main\AndroidManifest.xml:2:1-62:12
-INJECTED from C:\Users\Admin\Documents\projet_android_esgi4al_group_10\GameApp\app\src\main\AndroidManifest.xml:2:1-62:12
-INJECTED from C:\Users\Admin\Documents\projet_android_esgi4al_group_10\GameApp\app\src\main\AndroidManifest.xml:2:1-62:12
+INJECTED from C:\Users\Admin\Documents\projet_android_esgi4al_group_10\GameApp\app\src\main\AndroidManifest.xml:2:1-60:12
+INJECTED from C:\Users\Admin\Documents\projet_android_esgi4al_group_10\GameApp\app\src\main\AndroidManifest.xml:2:1-60:12
+INJECTED from C:\Users\Admin\Documents\projet_android_esgi4al_group_10\GameApp\app\src\main\AndroidManifest.xml:2:1-60:12
 	package
 		INJECTED from C:\Users\Admin\Documents\projet_android_esgi4al_group_10\GameApp\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Admin\Documents\projet_android_esgi4al_group_10\GameApp\app\src\main\AndroidManifest.xml:2:1-62:12
+		ADDED from C:\Users\Admin\Documents\projet_android_esgi4al_group_10\GameApp\app\src\main\AndroidManifest.xml:2:1-60:12
 		INJECTED from C:\Users\Admin\Documents\projet_android_esgi4al_group_10\GameApp\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\Users\Admin\Documents\projet_android_esgi4al_group_10\GameApp\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Admin\Documents\projet_android_esgi4al_group_10\GameApp\app\src\main\AndroidManifest.xml:2:1-62:12
+		ADDED from C:\Users\Admin\Documents\projet_android_esgi4al_group_10\GameApp\app\src\main\AndroidManifest.xml:2:1-60:12
 		INJECTED from C:\Users\Admin\Documents\projet_android_esgi4al_group_10\GameApp\app\src\main\AndroidManifest.xml
 	xmlns:tools
 		ADDED from C:\Users\Admin\Documents\projet_android_esgi4al_group_10\GameApp\app\src\main\AndroidManifest.xml:3:5-51
 	android:versionCode
 		INJECTED from C:\Users\Admin\Documents\projet_android_esgi4al_group_10\GameApp\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Admin\Documents\projet_android_esgi4al_group_10\GameApp\app\src\main\AndroidManifest.xml:2:1-62:12
+		ADDED from C:\Users\Admin\Documents\projet_android_esgi4al_group_10\GameApp\app\src\main\AndroidManifest.xml:2:1-60:12
 		INJECTED from C:\Users\Admin\Documents\projet_android_esgi4al_group_10\GameApp\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Users\Admin\Documents\projet_android_esgi4al_group_10\GameApp\app\src\main\AndroidManifest.xml:2:11-69
@@ -114,7 +114,7 @@ MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.2.0] C:
 	android:name
 		ADDED from C:\Users\Admin\Documents\projet_android_esgi4al_group_10\GameApp\app\src\main\AndroidManifest.xml:5:22-64
 application
-ADDED from C:\Users\Admin\Documents\projet_android_esgi4al_group_10\GameApp\app\src\main\AndroidManifest.xml:7:5-60:19
+ADDED from C:\Users\Admin\Documents\projet_android_esgi4al_group_10\GameApp\app\src\main\AndroidManifest.xml:7:5-58:19
 MERGED from [com.google.firebase:firebase-database-ktx:20.1.0] C:\Users\Admin\.gradle\caches\transforms-3\dcb25f89a46fc0d31d0b914f2570928d\transformed\firebase-database-ktx-20.1.0\AndroidManifest.xml:10:5-18:19
 MERGED from [com.google.firebase:firebase-database-ktx:20.1.0] C:\Users\Admin\.gradle\caches\transforms-3\dcb25f89a46fc0d31d0b914f2570928d\transformed\firebase-database-ktx-20.1.0\AndroidManifest.xml:10:5-18:19
 MERGED from [com.google.firebase:firebase-analytics-ktx:21.2.0] C:\Users\Admin\.gradle\caches\transforms-3\3a2af1d1e222806e3d17416d0b315f04\transformed\firebase-analytics-ktx-21.2.0\AndroidManifest.xml:7:5-15:19
@@ -199,12 +199,12 @@ MERGED from [androidx.startup:startup-runtime:1.0.0] C:\Users\Admin\.gradle\cach
 		ADDED from C:\Users\Admin\Documents\projet_android_esgi4al_group_10\GameApp\app\src\main\AndroidManifest.xml:15:9-45
 	android:dataExtractionRules
 		ADDED from C:\Users\Admin\Documents\projet_android_esgi4al_group_10\GameApp\app\src\main\AndroidManifest.xml:9:9-65
-activity#com.example.gameapp.activity.MainActivity
+activity#com.example.gameapp.activity.AccueilActivity
 ADDED from C:\Users\Admin\Documents\projet_android_esgi4al_group_10\GameApp\app\src\main\AndroidManifest.xml:17:9-29:20
 	android:exported
 		ADDED from C:\Users\Admin\Documents\projet_android_esgi4al_group_10\GameApp\app\src\main\AndroidManifest.xml:19:13-36
 	android:name
-		ADDED from C:\Users\Admin\Documents\projet_android_esgi4al_group_10\GameApp\app\src\main\AndroidManifest.xml:18:13-50
+		ADDED from C:\Users\Admin\Documents\projet_android_esgi4al_group_10\GameApp\app\src\main\AndroidManifest.xml:18:13-53
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
 ADDED from C:\Users\Admin\Documents\projet_android_esgi4al_group_10\GameApp\app\src\main\AndroidManifest.xml:20:13-24:29
 action#android.intent.action.MAIN
@@ -275,12 +275,6 @@ ADDED from C:\Users\Admin\Documents\projet_android_esgi4al_group_10\GameApp\app\
 		ADDED from C:\Users\Admin\Documents\projet_android_esgi4al_group_10\GameApp\app\src\main\AndroidManifest.xml:56:13-36
 	android:name
 		ADDED from C:\Users\Admin\Documents\projet_android_esgi4al_group_10\GameApp\app\src\main\AndroidManifest.xml:55:13-54
-activity#com.example.gameapp.activity.AccueilActivity
-ADDED from C:\Users\Admin\Documents\projet_android_esgi4al_group_10\GameApp\app\src\main\AndroidManifest.xml:57:9-59:48
-	android:exported
-		ADDED from C:\Users\Admin\Documents\projet_android_esgi4al_group_10\GameApp\app\src\main\AndroidManifest.xml:59:13-36
-	android:name
-		ADDED from C:\Users\Admin\Documents\projet_android_esgi4al_group_10\GameApp\app\src\main\AndroidManifest.xml:58:13-53
 uses-sdk
 INJECTED from C:\Users\Admin\Documents\projet_android_esgi4al_group_10\GameApp\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\Admin\Documents\projet_android_esgi4al_group_10\GameApp\app\src\main\AndroidManifest.xml
