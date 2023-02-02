@@ -5,16 +5,8 @@ import android.os.Bundle
 import android.view.View
 import android.widget.Button
 import android.widget.EditText
-import androidx.recyclerview.widget.LinearLayoutManager
-import androidx.recyclerview.widget.RecyclerView
-import com.example.gameapp.NetworkManager2
 import com.example.gameapp.R
-import com.example.gameapp.adapter.ReviewGameAdapter
 import com.example.gameapp.backend.UserAuth
-import kotlinx.coroutines.Dispatchers
-import kotlinx.coroutines.GlobalScope
-import kotlinx.coroutines.launch
-import kotlinx.coroutines.withContext
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import android.widget.TextView
@@ -49,17 +41,7 @@ class MainActivity : AppCompatActivity() {
                 val email = view.findViewById<EditText>(R.id.editText).text.toString()
                 val password = view.findViewById<EditText>(R.id.editText2).text.toString()
                 val auth = UserAuth()
-                if(auth.signInUser(email, password, requireContext())){
-                    //Action à exécuter si connexion réussie
-                    parentFragmentManager.beginTransaction()
-                        .replace(R.id.fragment_container, AccueilActivity.AccueilFragment())
-                        .addToBackStack("accueil")
-                        .commitAllowingStateLoss()
-                }
-                else{
-                    //Action à exécuter si connexion echouée
-                    Toast.makeText(requireContext(), "La connexion à échouée. Veuillez vérifier votre email et mot de passe", Toast.LENGTH_SHORT).show()
-                }
+                auth.signInUser(email, password, requireContext(), parentFragmentManager)
             }
 
 

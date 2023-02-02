@@ -2,6 +2,9 @@ package com.example.gameapp.backend
 
 import android.content.Context
 import android.widget.Toast
+import androidx.fragment.app.FragmentManager
+import com.example.gameapp.R
+import com.example.gameapp.activity.AccueilActivity
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.FirebaseUser
 import com.google.firebase.database.DatabaseReference
@@ -36,19 +39,20 @@ class UserAuth {
     }
 
     //Fonction de connection de notre user
-    fun signInUser(email: String, password: String, context: Context): Boolean {
-        var result = false
+    fun signInUser(email: String, password: String, context: Context, fragment: FragmentManager){
         mAuth!!.signInWithEmailAndPassword(email, password)
             .addOnCompleteListener { task ->
                 if (task.isSuccessful) {
-                    result = true
                     val user = mAuth!!.currentUser
                     Toast.makeText(context, "Connexion réussie!", Toast.LENGTH_SHORT).show()
+                    fragment.beginTransaction()
+                        .replace(R.id.fragment_container, AccueilActivity.AccueilFragment())
+                        .addToBackStack("accueil")
+                        .commitAllowingStateLoss()
                 } else {
                     Toast.makeText(context, "Connexion échouée, veuillez réessayer", Toast.LENGTH_SHORT).show()
                 }
             }
-        return result
     }
 
     //Fonction pour reset le password
