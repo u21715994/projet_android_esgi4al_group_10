@@ -2,7 +2,6 @@ package com.example.gameapp
 
 import android.util.Log
 import com.google.gson.*
-import com.google.gson.annotations.Expose
 import com.google.gson.annotations.SerializedName
 import com.jakewharton.retrofit2.adapter.kotlin.coroutines.CoroutineCallAdapterFactory
 import kotlinx.coroutines.Deferred
@@ -85,6 +84,7 @@ data class Data (
 
     val developers: List<String>,
     val publishers: List<String>,
+    val price_overview: PriceOverview,
     val packages: List<Long>,
 
     @SerializedName("package_groups")
@@ -112,6 +112,15 @@ data class Data (
 
     @SerializedName("content_descriptors")
     val contentDescriptors: ContentDescriptors
+)
+
+data class PriceOverview (
+    val currency: String,
+    val initial: Long,
+    val myfinal: Long,
+    val discount_percent: Long,
+    val initial_formatted: String,
+    val final_formatted: String
 )
 
 data class Achievements (

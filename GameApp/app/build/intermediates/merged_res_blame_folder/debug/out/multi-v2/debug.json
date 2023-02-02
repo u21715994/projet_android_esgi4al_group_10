@@ -2057,7 +2057,7 @@
             "outputFile": "com.example.gameapp-merged_res-30:/values-night-v8_values-night-v8.arsc.flat",
             "map": [
                 {
-                    "source": "C:\\Users\\Admin\\projet_android_esgi4al_group_10\\GameApp\\app\\src\\main\\res\\values-night\\themes.xml",
+                    "source": "C:\\Users\\Admin\\Documents\\projet_android_esgi4al_group_10\\GameApp\\app\\src\\main\\res\\values-night\\themes.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -3348,7 +3348,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Admin\\projet_android_esgi4al_group_10\\GameApp\\app\\src\\main\\res\\values\\strings.xml",
+                    "source": "C:\\Users\\Admin\\Documents\\projet_android_esgi4al_group_10\\GameApp\\app\\src\\main\\res\\values\\strings.xml",
                     "from": {
                         "startLines": "17,1,48,42,2,33,7,43,44,45,46,47,4,34,37,26,12,21,22,23,19,36,27,28,32,5,8,10,14,30,50,29,41,49,51,31,39,20,11,16,6,40,24,52,25,15,13,9,3,38,35,18",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -3401,23 +3401,6 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Admin\\projet_android_esgi4al_group_10\\GameApp\\app\\src\\main\\res\\values\\colors.xml",
-                    "from": {
-                        "startLines": "7,2,3,4,5,6,8",
-                        "startColumns": "4,4,4,4,4,4,4",
-                        "startOffsets": "293,57,105,153,201,247,336",
-                        "endColumns": "41,46,46,46,44,44,41",
-                        "endOffsets": "330,99,147,195,241,287,373"
-                    },
-                    "to": {
-                        "startLines": "586,804,805,806,817,818,822",
-                        "startColumns": "4,4,4,4,4,4,4",
-                        "startOffsets": "29680,45334,45381,45428,46172,46217,46425",
-                        "endColumns": "41,46,46,46,44,44,41",
-                        "endOffsets": "29717,45376,45423,45470,46212,46257,46462"
-                    }
-                },
-                {
                     "source": "C:\\Users\\Admin\\.gradle\\caches\\transforms-3\\e2ead5f317d22088c48cad1a61f8b969\\transformed\\viewpager2-1.0.0\\res\\values\\values.xml",
                     "from": {
                         "startLines": "2",
@@ -3434,23 +3417,6 @@
                         "endLines": "11926",
                         "endColumns": "24",
                         "endOffsets": "674845"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\Admin\\.gradle\\caches\\transforms-3\\f0183ff79c7f66b7d9f1cccdc2107218\\transformed\\glide-4.11.0\\res\\values\\values.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "57",
-                        "endOffsets": "108"
-                    },
-                    "to": {
-                        "startLines": "1450",
-                        "startColumns": "4",
-                        "startOffsets": "88360",
-                        "endColumns": "57",
-                        "endOffsets": "88413"
                     }
                 },
                 {
@@ -3490,6 +3456,23 @@
                     }
                 },
                 {
+                    "source": "C:\\Users\\Admin\\.gradle\\caches\\transforms-3\\295cce6be63442ed9382d332e6a60141\\transformed\\glide-4.12.0\\res\\values\\values.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "57",
+                        "endOffsets": "108"
+                    },
+                    "to": {
+                        "startLines": "1450",
+                        "startColumns": "4",
+                        "startOffsets": "88360",
+                        "endColumns": "57",
+                        "endOffsets": "88413"
+                    }
+                },
+                {
                     "source": "C:\\Users\\Admin\\.gradle\\caches\\transforms-3\\3d0b12a6a2875ebc8055ad98f7863014\\transformed\\cardview-1.0.0\\res\\values\\values.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,35,36,37,38,45,47,50,7",
@@ -3506,25 +3489,6 @@
                         "endLines": "33,595,596,597,598,906,907,908,1793,4780,4783,4786,8831",
                         "endColumns": "51,60,61,61,63,58,56,53,12,12,12,12,24",
                         "endOffsets": "1567,30419,30481,30543,30607,52082,52139,52193,119147,321783,321909,322037,560781"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\Admin\\projet_android_esgi4al_group_10\\GameApp\\app\\src\\main\\res\\values\\themes.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "102",
-                        "endLines": "14",
-                        "endColumns": "12",
-                        "endOffsets": "808"
-                    },
-                    "to": {
-                        "startLines": "5587",
-                        "startColumns": "4",
-                        "startOffsets": "376754",
-                        "endLines": "5599",
-                        "endColumns": "12",
-                        "endOffsets": "377327"
                     }
                 },
                 {
@@ -3602,6 +3566,25 @@
                     }
                 },
                 {
+                    "source": "C:\\Users\\Admin\\Documents\\projet_android_esgi4al_group_10\\GameApp\\app\\src\\main\\res\\values\\themes.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "102",
+                        "endLines": "14",
+                        "endColumns": "12",
+                        "endOffsets": "808"
+                    },
+                    "to": {
+                        "startLines": "5587",
+                        "startColumns": "4",
+                        "startOffsets": "376754",
+                        "endLines": "5599",
+                        "endColumns": "12",
+                        "endOffsets": "377327"
+                    }
+                },
+                {
                     "source": "C:\\Users\\Admin\\.gradle\\caches\\transforms-3\\e5a7f5c955953cc9d13feeef1215b998\\transformed\\coordinatorlayout-1.1.0\\res\\values\\values.xml",
                     "from": {
                         "startLines": "2,3,6,16",
@@ -3618,6 +3601,23 @@
                         "endLines": "86,7909,9795,9879",
                         "endColumns": "60,12,24,24",
                         "endOffsets": "4506,529221,597544,602060"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Admin\\Documents\\projet_android_esgi4al_group_10\\GameApp\\app\\src\\main\\res\\values\\colors.xml",
+                    "from": {
+                        "startLines": "7,2,3,4,5,6,8",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "293,57,105,153,201,247,336",
+                        "endColumns": "41,46,46,46,44,44,41",
+                        "endOffsets": "330,99,147,195,241,287,373"
+                    },
+                    "to": {
+                        "startLines": "586,804,805,806,817,818,822",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "29680,45334,45381,45428,46172,46217,46425",
+                        "endColumns": "41,46,46,46,44,44,41",
+                        "endOffsets": "29717,45376,45423,45470,46212,46257,46462"
                     }
                 },
                 {

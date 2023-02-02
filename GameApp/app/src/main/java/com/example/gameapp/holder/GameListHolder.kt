@@ -22,6 +22,7 @@ import kotlinx.coroutines.withContext
 class GameListHolder(view: View): RecyclerView.ViewHolder(view) {
     val nameGame = view.findViewById<TextView>(R.id.textView2)
     val editors = view.findViewById<TextView>(R.id.textView3)
+    val price = view.findViewById<TextView>(R.id.textView4)
     val button = view.findViewById<Button>(R.id.more_information)
     val imageGameBackground = view.findViewById<ImageView>(R.id.imageView2)
     val imageGame = view.findViewById<ImageView>(R.id.imageView3)
@@ -34,6 +35,10 @@ class GameListHolder(view: View): RecyclerView.ViewHolder(view) {
                 }
                 nameGame.text = response.gameDetail.data.name
                 editors.text = response.gameDetail.data.publishers.toString()
+                if(response.gameDetail.data.isFree)
+                    price.text = "Gratuit"
+                else
+                    price.text = response.gameDetail.data.price_overview.final_formatted
                 Glide.with(context).load(response.gameDetail.data.backgroundRaw).into(imageGameBackground);
                 Glide.with(context).load(response.gameDetail.data.headerImage).into(imageGame);
             }catch (e: Exception){

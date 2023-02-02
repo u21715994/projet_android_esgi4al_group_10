@@ -23,7 +23,7 @@
         android:testOnly="true"
         android:theme="@style/Theme.GameApp" >
         <activity
-            android:name="com.example.gameapp.activity.DescriptionGameActivity"
+            android:name="com.example.gameapp.activity.AccueilActivity"
             android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -37,6 +37,9 @@
         </activity>
         <activity
             android:name="com.example.gameapp.activity.GameLikeActivity"
+            android:exported="true" />
+        <activity
+            android:name="com.example.gameapp.activity.DescriptionGameActivity"
             android:exported="true" />
         <activity
             android:name="com.example.gameapp.activity.WishlistActivity"
@@ -58,9 +61,6 @@
             android:exported="true" />
         <activity
             android:name="com.example.gameapp.activity.LikeVideActivity"
-            android:exported="true" />
-        <activity
-            android:name="com.example.gameapp.activity.AccueilActivity"
             android:exported="true" />
 
         <provider
