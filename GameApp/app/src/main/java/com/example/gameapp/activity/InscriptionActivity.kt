@@ -15,26 +15,50 @@ import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.GlobalScope
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
+import android.view.LayoutInflater
+import android.view.ViewGroup
+import androidx.fragment.app.Fragment
 
 class InscriptionActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.inscription)
-        val button = findViewById<Button>(R.id.button)
-        button.setOnClickListener {
-            val email = findViewById<EditText>(R.id.editText).text.toString()
-            val password = findViewById<EditText>(R.id.editText2).text.toString()
-            val username = findViewById<EditText>(R.id.editText3).text.toString()
-            val userData = mapOf("username" to username)
-            val auth = UserAuth()
-            if(auth.createU(email, password, userData,this)){
-                //action à réaliser quand l'utilisateur est inscrit
 
-            }
-            else{
-                //Action à réaliser quand l'utilisateur n'est pas inscrit
+        supportFragmentManager.beginTransaction()
+            .replace(R.id.fragment_container, InscriptionFragment())
+            .addToBackStack("inscription")
+            .commit()
+    }
+
+    class InscriptionFragment: Fragment(){
+        override fun onCreateView(
+            inflater: LayoutInflater,
+            container: ViewGroup?,
+            savedInstanceState: Bundle?
+        ): View? {
+            return LayoutInflater.from(requireContext())
+                .inflate(R.layout.inscription_fragment, container, false)
+        }
+
+        override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+            super.onViewCreated(view, savedInstanceState)
+
+            val button = findViewById<Button>(R.id.button)
+            button.setOnClickListener {
+                val email = findViewById<EditText>(R.id.editText).text.toString()
+                val password = findViewById<EditText>(R.id.editText2).text.toString()
+                val username = findViewById<EditText>(R.id.editText3).text.toString()
+                val userData = mapOf("username" to username)
+                val auth = UserAuth()
+                if(auth.createU(email, password, userData,this)){
+                    //action à réaliser quand l'utilisateur est inscrit
+
+                }
+                else{
+                    //Action à réaliser quand l'utilisateur n'est pas inscrit
 
 
+                }
             }
         }
     }
