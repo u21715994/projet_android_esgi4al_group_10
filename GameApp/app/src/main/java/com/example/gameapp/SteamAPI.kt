@@ -409,6 +409,13 @@ class Player (
     val loccityid: Int
 )
 
+data class Search (
+    val appid: String,
+    val name: String,
+    val icon: String,
+    val logo: String
+)
+
 interface SteamAPI {
     @GET("ISteamChartsService/GetMostPlayedGames/v1/?key=515688504A840291F3A0F7F4F7223807")
     fun getMostPlayedGamesAsync(): Deferred<GameList>
@@ -418,8 +425,9 @@ interface SteamAPI {
     fun getReviewGameAsync(@Path("apiId") gameId: String): Deferred<GameReview>
     @GET("ISteamUser/GetPlayerSummaries/v0002/?key=515688504A840291F3A0F7F4F7223807")
     fun getUserInfoAsync(@Query("steamids") userId: String): Deferred<ResponseUser>
-    
-    
+
+    @GET("actions/SearchApps/{name}")
+    fun getSearchGameAsync(@Path("name") name: String): Deferred<Array<Search>>
 }
 
 object NetworkManager1{
@@ -497,5 +505,23 @@ class IdResponseDeserializer: JsonDeserializer<GameDetail>{
         }
 
         return GameDetail(deserializer.fromJson(jsonObject?.get(key), Detail::class.java))
+    }
+}
+
+object NetworkManager3{
+    private val api = Retrofit.Builder()
+        .baseUrl("https://steamcommunity.com/")
+        .addConverterFactory(GsonConverterFactory.create())
+        .addCallAdapterFactory(CoroutineCallAdapterFactory())
+        .build()
+        .create(SteamAPI::class.java)
+
+    suspend fun getSearchGames(name: String): Array<Search> {
+        try {
+            api.getSearchGameAsync(name).await()
+        }catch (e: Exception){
+            Log.i("Err ", e.toString())
+        }
+        return api.getSearchGameAsync(name).await()
     }
 }
