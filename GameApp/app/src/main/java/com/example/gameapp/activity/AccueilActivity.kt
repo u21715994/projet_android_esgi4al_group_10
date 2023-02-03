@@ -1,10 +1,12 @@
 package com.example.gameapp.activity
 
 import android.os.Bundle
+import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.Button
+import android.widget.EditText
 import android.widget.ImageView
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
@@ -99,8 +101,16 @@ class AccueilActivity : AppCompatActivity() {
                             .commitAllowingStateLoss()
                     })
 
-                } catch (e: Exception) {
+                    val searchGame = view.findViewById<EditText>(R.id.editText)
+                    searchGame.setOnClickListener(View.OnClickListener {
+                        parentFragmentManager.beginTransaction()
+                            .replace(R.id.fragment_container, RechercheActivity.RechercheFragment())
+                            .addToBackStack("recherche")
+                            .commitAllowingStateLoss()
+                    })
 
+                } catch (e: Exception) {
+                    Log.e("Err", e.toString())
                 }
             }
         }

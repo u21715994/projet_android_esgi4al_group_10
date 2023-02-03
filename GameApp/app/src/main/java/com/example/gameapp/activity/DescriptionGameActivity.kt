@@ -73,7 +73,7 @@ class DescriptionGameActivity : AppCompatActivity() {
                     val description = view.findViewById<TextView>(R.id.textView6)
                     description.text = response.gameDetail.data.detailedDescription
                 } catch (e: Exception) {
-
+                    Log.e("Err", e.toString())
                 }
             }
 

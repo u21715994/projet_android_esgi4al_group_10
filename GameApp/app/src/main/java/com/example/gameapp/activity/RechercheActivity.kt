@@ -64,7 +64,7 @@ class RechercheActivity : AppCompatActivity() {
                     gameReviewView.layoutManager = LinearLayoutManager(context)
                     gameReviewView.adapter = adapter
                 } catch (e: Exception) {
-
+                    Log.e("Err", e.toString())
                 }
             }
         }
